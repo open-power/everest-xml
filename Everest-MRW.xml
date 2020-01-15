@@ -5233,6 +5233,8 @@
 	<child_id>proc_socket-1</child_id>
 	<child_id>proc_socket-2</child_id>
 	<child_id>proc_socket-3</child_id>
+	<child_id>bellavista_presence-0</child_id>
+	<child_id>bellavista_vpd-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -23411,6 +23413,185 @@
 	<attribute>
 		<id>PROC_PCIE_IOP_CONFIG</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>bellavista_presence-0</id>
+	<type>dummy-presence-generic</type>
+	<is_root>false</is_root>
+	<instance_name>bellavista_presence</instance_name>
+	<position>0</position>
+	<child_id>io-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRESENCE_DETECT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>io-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>io-0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default>IO0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>bellavista_vpd-0</id>
+	<type>chip-planar_vpd-device</type>
+	<is_root>false</is_root>
+	<instance_name>bellavista_vpd</instance_name>
+	<position>0</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>vpd_assoc_parent</child_id>
+	<attribute>
+		<id>BYTE_ADDRESS_OFFSET</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MEMORY_SIZE_IN_KB</id>
+		<default>0x40</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_TYPE</id>
+		<default>PVPD</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_CYCLE_TIME</id>
+		<default>20</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_PAGE_SIZE</id>
+		<default>32</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>vpd_assoc_parent</id>
+	<type>unit-logic_assoc-generic</type>
+	<is_root>false</is_root>
+	<instance_name>vpd_assoc_parent</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>ASSOCIATION_TYPE</id>
+		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
