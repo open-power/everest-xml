@@ -4301,6 +4301,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm_conn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -4308,14 +4315,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/ebmc-card-conn-0</id>
-	<property>
-	<id>CONNECTOR_TYPE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/bellavista-0/power-distribution-conn-2</id>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
@@ -4329,13 +4329,6 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/bellavista-0/tmp-connn-1</id>
-	<property>
-	<id>CONNECTOR_TYPE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5327,10 +5320,11 @@
 	<child_id>ddimm_conn-61</child_id>
 	<child_id>ddimm_conn-62</child_id>
 	<child_id>ddimm_conn-63</child_id>
-	<child_id>ebmc-card-conn-0</child_id>
-	<child_id>tmp-connn-1</child_id>
-	<child_id>power-distribution-conn-2</child_id>
+	<child_id>eBMC-card-conn-0</child_id>
+	<child_id>TPM-conn-0</child_id>
 	<child_id>everest_apss-0</child_id>
+	<child_id>Power-riser-conn-0</child_id>
+	<child_id>nvme-conn-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -25969,10 +25963,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ebmc-card-conn-0</id>
+	<id>eBMC-card-conn-0</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
-	<instance_name>ebmc-card-conn</instance_name>
+	<instance_name>eBMC-card-conn</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>CLASS</id>
@@ -26004,11 +25998,11 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>tmp-connn-1</id>
+	<id>TPM-conn-0</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
-	<instance_name>tmp-connn</instance_name>
-	<position>1</position>
+	<instance_name>TPM-conn</instance_name>
+	<position>0</position>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -26031,42 +26025,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>power-distribution-conn-2</id>
-	<type>connector-card-generic</type>
-	<is_root>false</is_root>
-	<instance_name>power-distribution-conn</instance_name>
-	<position>2</position>
-	<attribute>
-		<id>CLASS</id>
-		<default>CONNECTOR</default>
-	</attribute>
-	<attribute>
-		<id>CONNECTOR_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>2</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29502,6 +29461,76 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Power-riser-conn-0</id>
+	<type>connector-card-generic</type>
+	<is_root>false</is_root>
+	<instance_name>Power-riser-conn</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>nvme-conn-0</id>
+	<type>connector-card-generic</type>
+	<is_root>false</is_root>
+	<instance_name>nvme-conn</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
