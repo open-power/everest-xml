@@ -10668,6 +10668,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AF25_fsi1/chip-bmc-ast2600.pingroup_fsi1/chip-bmc-ast2600.fsi1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -10870,6 +10881,90 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10941,6 +11036,13 @@
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11038,6 +11140,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11088,6 +11197,39 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsi-slave-1</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -11161,6 +11303,32 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11211,6 +11379,32 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -11280,6 +11474,65 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13399,6 +13652,174 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AF25_fsi1/chip-bmc-ast2600.pingroup_fsi1/chip-bmc-ast2600.fsi1 => proc_socket-0/godel-0/power10-0/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AF25_fsi1/chip-bmc-ast2600.pingroup_fsi1/</source_path>
+		<source_target>chip-bmc-ast2600.fsi1</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(bmc-0),L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-1 => proc_socket-0/godel-0/power10-1/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-1</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-2 => proc_socket-1/godel-0/power10-0/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-2</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-3 => proc_socket-1/godel-0/power10-1/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-3</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-4 => proc_socket-2/godel-0/power10-0/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-4</source_target>
+		<dest_path>proc_socket-2/godel-0/power10-0/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-5 => proc_socket-2/godel-0/power10-1/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-5</source_target>
+		<dest_path>proc_socket-2/godel-0/power10-1/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-6 => proc_socket-3/godel-0/power10-0/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-6</source_target>
+		<dest_path>proc_socket-3/godel-0/power10-0/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/fsim-7 => proc_socket-3/godel-0/power10-1/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>fsim-7</source_target>
+		<dest_path>proc_socket-3/godel-0/power10-1/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
