@@ -8825,6 +8825,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-0/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-0/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-0/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8835,6 +8849,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-1/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-1/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8853,6 +8881,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-10/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-10/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-10/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8863,6 +8905,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-11</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-11/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-11/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8881,6 +8937,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-12/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-12/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-12/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8891,6 +8961,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-13</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-13/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-13/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8909,6 +8993,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-14/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-14/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-14/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8919,6 +9017,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-15</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-15/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-15/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8937,9 +9049,23 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-16/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-16/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-16/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8958,6 +9084,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-17/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-17/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-17/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8968,6 +9108,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-18</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-18/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-18/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8986,6 +9140,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-19/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-19/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-19/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8996,6 +9164,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-2</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-2/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-2/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9014,6 +9196,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-20/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-20/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-20/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9024,6 +9220,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-21</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-21/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-21/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9042,6 +9252,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-22/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-22/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-22/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9052,6 +9276,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-23</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-23/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-23/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9070,6 +9308,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-24/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-24/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-24/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9080,6 +9332,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-25</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-25/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-25/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9098,6 +9364,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-26/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-26/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-26/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9112,6 +9392,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-27/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-27/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-27/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9122,6 +9416,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-28</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-28/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-28/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9155,6 +9463,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-29/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-29/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-29/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9165,6 +9487,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-3/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-3/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9183,6 +9519,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-30/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-30/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-30/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9193,6 +9543,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-31</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-31/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-31/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9211,6 +9575,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-32/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-32/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-32/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9221,6 +9599,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-33</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-33/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-33/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9239,6 +9631,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-34/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-34/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-34/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9249,6 +9655,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-35</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-35/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-35/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9267,6 +9687,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-36/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-36/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-36/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9277,6 +9711,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-37</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-37/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-37/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9295,6 +9743,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-38/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-38/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-38/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9309,6 +9771,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-39/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-39/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-39/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9319,6 +9795,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-4</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-4/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-4/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9352,6 +9842,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-40/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-40/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-40/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9362,6 +9866,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-41</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-41/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-41/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9380,6 +9898,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-42/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-42/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-42/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9394,9 +9926,23 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-43/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-43/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-43/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9415,6 +9961,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-44/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-44/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-44/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9425,6 +9985,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-45</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-45/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-45/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9443,6 +10017,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-46/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-46/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-46/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9453,6 +10041,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-47</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-47/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-47/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9471,6 +10073,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-48/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-48/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-48/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9481,6 +10097,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-49</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-49/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-49/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9499,6 +10129,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-5/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-5/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-5/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9509,6 +10153,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-50</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-50/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-50/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9527,6 +10185,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-51/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-51/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-51/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9537,6 +10209,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-52</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-52/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-52/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9555,6 +10241,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-53/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-53/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-53/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9565,6 +10265,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-54</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-54/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-54/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9583,6 +10297,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-55/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-55/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-55/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9593,6 +10321,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-56</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-56/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-56/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9611,6 +10353,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-57/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-57/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-57/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9621,6 +10377,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-58</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-58/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-58/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9639,6 +10409,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-59/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-59/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-59/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9649,6 +10433,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-6</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-6/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-6/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9667,6 +10465,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-60/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-60/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-60/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9677,6 +10489,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-61</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-61/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-61/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9695,6 +10521,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-62/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-62/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-62/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9705,6 +10545,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-63</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-63/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-63/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9723,6 +10577,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-7/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-7/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-7/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9737,6 +10605,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-8/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-8/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-8/ddimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9747,6 +10629,20 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-9</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-9/ddimm-0/ddr4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/ddimm-conn-9/ddimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11673,6 +12569,838 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<bus>
+		<bus_id>ddimm-conn-0/ddimm-0/ocmb/mem_port => ddimm-conn-0/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-0/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-0/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-1/ddimm-0/ocmb/mem_port => ddimm-conn-1/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-1/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-1/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-2/ddimm-0/ocmb/mem_port => ddimm-conn-2/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-2/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-2/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-3/ddimm-0/ocmb/mem_port => ddimm-conn-3/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-3/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-3/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-4/ddimm-0/ocmb/mem_port => ddimm-conn-4/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-4/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-4/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-5/ddimm-0/ocmb/mem_port => ddimm-conn-5/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-5/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-5/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-6/ddimm-0/ocmb/mem_port => ddimm-conn-6/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-6/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-6/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-7/ddimm-0/ocmb/mem_port => ddimm-conn-7/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-7/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-7/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-8/ddimm-0/ocmb/mem_port => ddimm-conn-8/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-8/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-8/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-9/ddimm-0/ocmb/mem_port => ddimm-conn-9/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-9/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-9/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-10/ddimm-0/ocmb/mem_port => ddimm-conn-10/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-10/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-10/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-11/ddimm-0/ocmb/mem_port => ddimm-conn-11/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-11/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-11/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-12/ddimm-0/ocmb/mem_port => ddimm-conn-12/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-12/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-12/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-13/ddimm-0/ocmb/mem_port => ddimm-conn-13/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-13/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-13/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-14/ddimm-0/ocmb/mem_port => ddimm-conn-14/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-14/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-14/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-15/ddimm-0/ocmb/mem_port => ddimm-conn-15/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-15/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-15/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-16/ddimm-0/ocmb/mem_port => ddimm-conn-16/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-16/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-16/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-17/ddimm-0/ocmb/mem_port => ddimm-conn-17/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-17/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-17/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-18/ddimm-0/ocmb/mem_port => ddimm-conn-18/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-18/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-18/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-19/ddimm-0/ocmb/mem_port => ddimm-conn-19/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-19/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-19/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-20/ddimm-0/ocmb/mem_port => ddimm-conn-20/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-20/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-20/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-21/ddimm-0/ocmb/mem_port => ddimm-conn-21/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-21/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-21/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-22/ddimm-0/ocmb/mem_port => ddimm-conn-22/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-22/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-22/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-23/ddimm-0/ocmb/mem_port => ddimm-conn-23/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-23/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-23/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-24/ddimm-0/ocmb/mem_port => ddimm-conn-24/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-24/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-24/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-25/ddimm-0/ocmb/mem_port => ddimm-conn-25/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-25/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-25/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-26/ddimm-0/ocmb/mem_port => ddimm-conn-26/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-26/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-26/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-27/ddimm-0/ocmb/mem_port => ddimm-conn-27/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-27/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-27/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-28/ddimm-0/ocmb/mem_port => ddimm-conn-28/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-28/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-28/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-29/ddimm-0/ocmb/mem_port => ddimm-conn-29/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-29/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-29/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-30/ddimm-0/ocmb/mem_port => ddimm-conn-30/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-30/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-30/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-31/ddimm-0/ocmb/mem_port => ddimm-conn-31/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-31/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-31/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-32/ddimm-0/ocmb/mem_port => ddimm-conn-32/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-32/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-32/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-33/ddimm-0/ocmb/mem_port => ddimm-conn-33/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-33/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-33/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-34/ddimm-0/ocmb/mem_port => ddimm-conn-34/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-34/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-34/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-35/ddimm-0/ocmb/mem_port => ddimm-conn-35/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-35/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-35/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-36/ddimm-0/ocmb/mem_port => ddimm-conn-36/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-36/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-36/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-37/ddimm-0/ocmb/mem_port => ddimm-conn-37/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-37/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-37/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-38/ddimm-0/ocmb/mem_port => ddimm-conn-38/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-38/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-38/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-39/ddimm-0/ocmb/mem_port => ddimm-conn-39/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-39/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-39/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-40/ddimm-0/ocmb/mem_port => ddimm-conn-40/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-40/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-40/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-41/ddimm-0/ocmb/mem_port => ddimm-conn-41/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-41/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-41/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-42/ddimm-0/ocmb/mem_port => ddimm-conn-42/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-42/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-42/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-43/ddimm-0/ocmb/mem_port => ddimm-conn-43/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-43/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-43/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-44/ddimm-0/ocmb/mem_port => ddimm-conn-44/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-44/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-44/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-45/ddimm-0/ocmb/mem_port => ddimm-conn-45/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-45/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-45/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-46/ddimm-0/ocmb/mem_port => ddimm-conn-46/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-46/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-46/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-47/ddimm-0/ocmb/mem_port => ddimm-conn-47/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-47/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-47/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-48/ddimm-0/ocmb/mem_port => ddimm-conn-48/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-48/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-48/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-49/ddimm-0/ocmb/mem_port => ddimm-conn-49/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-49/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-49/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-50/ddimm-0/ocmb/mem_port => ddimm-conn-50/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-50/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-50/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-51/ddimm-0/ocmb/mem_port => ddimm-conn-51/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-51/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-51/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-52/ddimm-0/ocmb/mem_port => ddimm-conn-52/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-52/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-52/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-53/ddimm-0/ocmb/mem_port => ddimm-conn-53/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-53/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-53/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-54/ddimm-0/ocmb/mem_port => ddimm-conn-54/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-54/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-54/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-55/ddimm-0/ocmb/mem_port => ddimm-conn-55/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-55/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-55/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-56/ddimm-0/ocmb/mem_port => ddimm-conn-56/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-56/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-56/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-57/ddimm-0/ocmb/mem_port => ddimm-conn-57/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-57/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-57/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-58/ddimm-0/ocmb/mem_port => ddimm-conn-58/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-58/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-58/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-59/ddimm-0/ocmb/mem_port => ddimm-conn-59/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-59/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-59/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-60/ddimm-0/ocmb/mem_port => ddimm-conn-60/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-60/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-60/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-61/ddimm-0/ocmb/mem_port => ddimm-conn-61/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-61/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-61/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-62/ddimm-0/ocmb/mem_port => ddimm-conn-62/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-62/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-62/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-conn-63/ddimm-0/ocmb/mem_port => ddimm-conn-63/ddimm-0/ddr4</bus_id>
+		<bus_type>DDR4</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-conn-63/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port</source_target>
+		<dest_path>ddimm-conn-63/ddimm-0/</dest_path>
+		<dest_target>ddr4</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0 => ddimm-conn-56/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
