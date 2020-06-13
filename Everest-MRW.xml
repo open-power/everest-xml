@@ -9089,15 +9089,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-0/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9207,15 +9207,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-1/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9325,15 +9325,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-10/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9443,15 +9443,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-11/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9561,15 +9561,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-12/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9679,15 +9679,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-13/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9797,15 +9797,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-14/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9915,15 +9915,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-15/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10040,15 +10040,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-16/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10158,15 +10158,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-17/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10276,15 +10276,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-18/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10394,15 +10394,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-19/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10512,15 +10512,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-2/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10630,15 +10630,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-20/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10748,15 +10748,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-21/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10866,15 +10866,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-22/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -10984,15 +10984,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-23/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11102,17 +11102,17 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-24/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
-</globalSetting>
+</globalSetting>   
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-25</id>
 	<property>
@@ -11220,15 +11220,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-25/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11338,15 +11338,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-26/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11456,15 +11456,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-27/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11574,15 +11574,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-28/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11707,15 +11707,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-29/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11825,15 +11825,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-3/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11943,15 +11943,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-30/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12061,15 +12061,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-31/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12179,15 +12179,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-32/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12297,15 +12297,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-33/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12415,15 +12415,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-34/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12533,15 +12533,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-35/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12651,15 +12651,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-36/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12769,15 +12769,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-37/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12887,15 +12887,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-38/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13005,15 +13005,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-39/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13123,15 +13123,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-4/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13256,15 +13256,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-40/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13374,15 +13374,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-41/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13492,15 +13492,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-42/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13617,15 +13617,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-43/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13735,15 +13735,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-44/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13853,15 +13853,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-45/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13971,15 +13971,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-46/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14089,15 +14089,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-47/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14207,15 +14207,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-48/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14325,15 +14325,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-49/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14443,15 +14443,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-5/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14561,15 +14561,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-50/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14679,15 +14679,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-51/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14797,15 +14797,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-52/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14915,15 +14915,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-53/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15033,15 +15033,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-54/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15151,15 +15151,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-55/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15269,15 +15269,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-56/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15387,15 +15387,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-57/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15505,15 +15505,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-58/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15623,15 +15623,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-59/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15741,15 +15741,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-6/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15859,15 +15859,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-60/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15977,15 +15977,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-61/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16095,15 +16095,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-62/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16213,15 +16213,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-63/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16331,15 +16331,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-7/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16449,15 +16449,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-8/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16567,15 +16567,15 @@
 	<id>/sys-0/node-0/bellavista-0/ddimm-conn-9/ddimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>24c32</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16593,6 +16593,58 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-rtc-0/RX8900CE.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x64</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-tpm-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-tpm-1/NPCT750AAC.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xAE</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-vpd-0/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA2</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AF25_fsi1/chip-bmc-ast2600.pingroup_fsi1/chip-bmc-ast2600.fsi1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16600,6 +16652,20 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_K26_gpioa4_i2c13_sgps2/chip-bmc-ast2600.pingroup_i2c13/chip-bmc-ast2600.I2C13</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -33225,6 +33291,171 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/ddimm-conn-35/ddimm-0,H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9 => bellavista_vpd-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/</source_path>
+		<source_target>chip-bmc-ast2600.I2C9</source_target>
+		<dest_path>bellavista_vpd-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9 => UCD90320-0/UCD90320.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/</source_path>
+		<source_target>chip-bmc-ast2600.I2C9</source_target>
+		<dest_path>UCD90320-0/</dest_path>
+		<dest_target>UCD90320.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9 => eBMC-card-conn-0/Tola-0/Tola-rtc-0/RX8900CE.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/</source_path>
+		<source_target>chip-bmc-ast2600.I2C9</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-rtc-0/</dest_path>
+		<dest_target>RX8900CE.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9 => eBMC-card-conn-0/Tola-0/Tola-vpd-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/</source_path>
+		<source_target>chip-bmc-ast2600.I2C9</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-vpd-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_K26_gpioa4_i2c13_sgps2/chip-bmc-ast2600.pingroup_i2c13/chip-bmc-ast2600.I2C13 => eBMC-card-conn-0/Tola-0/Tola-tpm-1/NPCT750AAC.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_K26_gpioa4_i2c13_sgps2/chip-bmc-ast2600.pingroup_i2c13/</source_path>
+		<source_target>chip-bmc-ast2600.I2C13</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-tpm-1/</dest_path>
+		<dest_target>NPCT750AAC.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
