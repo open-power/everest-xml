@@ -5403,9 +5403,45 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/TUSB7340.PCIE-X1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/fan-card-conn-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value>null</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0/nvme-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5413,6 +5449,182 @@
 	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0/nvme-1</id>
 	<property>
 	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-1</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value>null</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-1/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-2</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-2/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-3</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-3/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-4</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-4/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-5</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-5/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-6</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-6/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-7</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-7/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-8</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-8/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-9</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/nvme-conn-9/nvme-0/nvme-pciep-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-lcd-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16955,6 +17167,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-i210-0/I210.pcie</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-i210-1/I210.pcie</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-rtc-0/RX8900CE.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17024,6 +17258,17 @@
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_A11_gpiok0k1_i2c5/chip-bmc-ast2600.pingroup_i2c5/chip-bmc-ast2600.I2C5</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie/chip-bmc-ast2600.pcie</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17301,6 +17546,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-1/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-10</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -17388,6 +17644,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-10/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17481,6 +17748,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-2/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -17568,6 +17846,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-3/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17661,6 +17950,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-4/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-7</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -17748,6 +18048,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-7/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17841,6 +18152,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-0/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-5</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -17928,6 +18250,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-5/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18021,6 +18354,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-6/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-8</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -18111,6 +18455,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-8/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-9</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -18198,6 +18553,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c64</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/pcieslot-x8-9/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18441,6 +18807,55 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb1_x4/phb1_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb2_x4/phb2_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x8_config/phb0_x8/phb0_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb4_x4/phb4_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
@@ -18573,6 +18988,41 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb1_x4/phb1_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb2_x4/phb2_x4_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb4_x4/phb4_x4_bus</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18756,6 +19206,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb3_x8/phb3_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb4_x8/phb4_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
@@ -18916,6 +19387,27 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb3_x8/phb3_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb4_x8/phb4_x8_bus</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19092,6 +19584,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/pec1/pec1_x16_config</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/pec1/pec1_x16_config/phb3_x16/phb3_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
@@ -19251,6 +19764,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/pec1/pec1_x16_config/phb3_x16/phb3_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -19338,6 +19865,20 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/i2c-master-op5b</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19483,6 +20024,20 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -44717,6 +45272,731 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb1_x4/phb1_x4_bus => eBMC-card-conn-0/Tola-0/Tola-i210-0/I210.pcie</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb1_x4/</source_path>
+		<source_target>phb1_x4_bus</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-i210-0/</dest_path>
+		<dest_target>I210.pcie</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb2_x4/phb2_x4_bus => eBMC-card-conn-0/Tola-0/Tola-i210-1/I210.pcie</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb2_x4/</source_path>
+		<source_target>phb2_x4_bus</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-i210-1/</dest_path>
+		<dest_target>I210.pcie</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb2_x4/phb2_x4_bus => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie/chip-bmc-ast2600.pcie</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb2_x4/</source_path>
+		<source_target>phb2_x4_bus</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie/</dest_path>
+		<dest_target>chip-bmc-ast2600.pcie</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-2/godel-0/power10-1/pec1/pec1_x16_config/phb3_x16/phb3_x16_bus => pcieslot-x16-1/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-2/godel-0/power10-1/pec1/pec1_x16_config/phb3_x16/</source_path>
+		<source_target>phb3_x16_bus</source_target>
+		<dest_path>pcieslot-x16-1/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-2/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-x16-2/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-2/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-x16-2/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-2/godel-0/power10-0/pec1/pec1_x16_config/phb3_x16/phb3_x16_bus => pcieslot-x16-3/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-2/godel-0/power10-0/pec1/pec1_x16_config/phb3_x16/</source_path>
+		<source_target>phb3_x16_bus</source_target>
+		<dest_path>pcieslot-x16-3/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-2/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-x16-4/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-2/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-x16-4/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb4_x8/phb4_x8_bus => pcieslot-x8-5/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb4_x8/</source_path>
+		<source_target>phb4_x8_bus</source_target>
+		<dest_path>pcieslot-x8-5/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb3_x8/phb3_x8_bus => pcieslot-x8-6/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>pcieslot-x8-6/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-x16-7/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-x16-7/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb4_x8/phb4_x8_bus => pcieslot-x8-8/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb4_x8/</source_path>
+		<source_target>phb4_x8_bus</source_target>
+		<dest_path>pcieslot-x8-8/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>null</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb3_x8/phb3_x8_bus => pcieslot-x8-9/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-0/pec1/pec1_x8_x8_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>pcieslot-x8-9/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-x16-10/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-0/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-x16-10/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus => pcieslot-x8-0/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/</source_path>
+		<source_target>phb0_x8_bus</source_target>
+		<dest_path>pcieslot-x8-0/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus => Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/TUSB7340.PCIE-X1</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/</source_path>
+		<source_target>phb5_x4_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/</dest_path>
+		<dest_target>TUSB7340.PCIE-X1</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-9/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-9/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-9/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb4_x4/phb4_x4_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-4/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb4_x4/</source_path>
+		<source_target>phb4_x4_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-4/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-4/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-8/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/</source_path>
+		<source_target>phb0_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-8/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-8/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb1_x4/phb1_x4_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-3/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb1_x4/</source_path>
+		<source_target>phb1_x4_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-3/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-3/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-7/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-7/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-7/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb4_x4/phb4_x4_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-2/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb4_x4/</source_path>
+		<source_target>phb4_x4_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-2/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-2/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-3/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-6/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-3/godel-0/power10-0/pec0/pec0_x8_x4_x4_config/phb0_x8/</source_path>
+		<source_target>phb0_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-6/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-6/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-3/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-1/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-3/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-1/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-1/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-3/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/phb0_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-5/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-3/godel-0/power10-1/pec0/pec0_x8_x4_x4_config/phb0_x8/</source_path>
+		<source_target>phb0_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-5/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-5/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-3/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus => Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0/nvme-0/nvme-pciep-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-3/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb3_x8/</source_path>
+		<source_target>phb3_x8_bus</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/nvme-conn-0/nvme-0/nvme-pciep-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/nvme-conn-0/(nvme-0),H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10),L:/sys/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
 		</bus_attribute>
 	</bus>
 </targetInstance>
@@ -90047,6 +91327,10 @@
 	<child_id>nvme-conn-7</child_id>
 	<child_id>nvme-conn-8</child_id>
 	<child_id>nvme-conn-9</child_id>
+	<child_id>op-panel-base-0</child_id>
+	<child_id>op-panel-lcd-0</child_id>
+	<child_id>fan-card-conn-0</child_id>
+	<child_id>TUSB7340-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -90105,11 +91389,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90651,11 +91935,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C1</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90687,11 +91971,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C2</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90723,11 +92007,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C3</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90759,11 +92043,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C4</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90795,11 +92079,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C5</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90831,11 +92115,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C6</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90867,11 +92151,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C7</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90903,11 +92187,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C8</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90939,11 +92223,11 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default></default>
+		<default>C9</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -90959,28 +92243,12 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pcieslot-x8-0</id>
-	<type>slot-pcieslot-generic</type>
+	<id>op-panel-base-0</id>
+	<type>connector-card-generic</type>
 	<is_root>false</is_root>
-	<instance_name>pcieslot-x8</instance_name>
+	<instance_name>op-panel-base</instance_name>
 	<position>0</position>
-	<child_id>pciecard-0</child_id>
-	<attribute>
-		<id>32BIT_DMA_SIZE</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>32BIT_MMIO_SIZE</id>
-		<default>2040</default>
-	</attribute>
-	<attribute>
-		<id>64BIT_DMA_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>64BIT_MMIO_SIZE</id>
-		<default>256</default>
-	</attribute>
+	<child_id>blyth-0</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -90990,48 +92258,20 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>DEFAULT_PCIE_COOLING_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HDDW_ORDER</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
-		<default>C1</default>
+		<default>D0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
 		<default>RELATIVE</default>
 	</attribute>
 	<attribute>
-		<id>MAX_POWER</id>
-		<default>75</default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MSI</id>
-		<default>4072</default>
-	</attribute>
-	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SLOT_INDEX</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SLOT_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SLOT_TYPE</id>
-		<default>DIRECT</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91039,38 +92279,169 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pciecard-0</id>
-	<type>card-pciecard-cablecard</type>
+	<id>blyth-0</id>
+	<type>card-daughtercard</type>
 	<is_root>false</is_root>
-	<instance_name>pciecard</instance_name>
+	<instance_name>blyth</instance_name>
 	<position>0</position>
-	<child_id>pciep</child_id>
-	<child_id>i2c-slave</child_id>
-	<child_id>pgood</child_id>
-	<child_id>enable</child_id>
-	<child_id>presence</child_id>
-	<child_id>cablecard-PCA9551</child_id>
-	<child_id>cablecard-TMP275A</child_id>
-	<child_id>clk-in</child_id>
-	<child_id>cablecard-CXP-TOP</child_id>
-	<child_id>cablecard-CXP-BOT</child_id>
-	<child_id>cablecard-LED-CXP-TOP</child_id>
-	<child_id>cablecard-LED-CXP-BOT</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
+	<child_id>led_assoc_child</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<child_id>blyth-vpd-0</child_id>
+	<child_id>blyth-presence-0</child_id>
+	<child_id>blyth-switch-reset-0</child_id>
+	<child_id>blyth-pwron-1</child_id>
+	<child_id>blyth-TMP275-0</child_id>
+	<child_id>blyth-DPS310-0</child_id>
+	<child_id>blyth-SI7021-0</child_id>
+	<child_id>blyth-PCA9551-0</child_id>
+	<child_id>led-sys-id-0</child_id>
+	<child_id>led-enc-fault-1</child_id>
+	<child_id>led-check-log-0</child_id>
+	<child_id>led-sys-pwron-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
-		<default>PCIE</default>
+		<default>OP-PANEL</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>CRU</default>
+	</attribute>
+	<attribute>
+		<id>STANDBY_PLUGGABLE</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-vpd-0</id>
+	<type>chip-planar_vpd-device</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-vpd</instance_name>
+	<position>0</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>vpd_assoc_parent</child_id>
+	<attribute>
+		<id>BYTE_ADDRESS_OFFSET</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MEMORY_SIZE_IN_KB</id>
+		<default>0x40</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_TYPE</id>
+		<default>PCVPD</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_CYCLE_TIME</id>
+		<default>20</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_PAGE_SIZE</id>
+		<default>32</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-presence-0</id>
+	<type>dummy-presence-generic</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-presence</instance_name>
+	<position>0</position>
+	<child_id>io-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRESENCE_DETECT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-switch-reset-0</id>
+	<type>chip-SWITCH</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-switch-reset</instance_name>
+	<position>0</position>
+	<child_id>SWITCH.gpio-master-0</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -91081,8 +92452,8 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -91090,7 +92461,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91098,11 +92469,11 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pgood</id>
-	<type>unit-pgood-generic</type>
+	<id>SWITCH.gpio-master-0</id>
+	<type>unit-gpio-generic</type>
 	<is_root>false</is_root>
-	<instance_name>pgood</instance_name>
-	<position>-1</position>
+	<instance_name>SWITCH.gpio-master</instance_name>
+	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
@@ -91131,7 +92502,7 @@
 	</attribute>
 	<attribute>
 		<id>GPIO_TYPE</id>
-		<default>PGOOD</default>
+		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -91161,14 +92532,153 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>enable</id>
-	<type>unit-enable-generic</type>
+	<id>blyth-pwron-1</id>
+	<type>chip-SWITCH</type>
 	<is_root>false</is_root>
-	<instance_name>enable</instance_name>
+	<instance_name>blyth-pwron</instance_name>
+	<position>1</position>
+	<child_id>SWITCH.gpio-master-0</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-TMP275-0</id>
+	<type>chip-TMP275</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-TMP275</instance_name>
+	<position>0</position>
+	<child_id>TMP275.i2c</child_id>
+	<child_id>TMP275.temp1</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>ti,tmp275</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>TMP275</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TMP</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TARGET-FRU-TYPE</id>
+		<default>planar</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TMP</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-DPS310-0</id>
+	<type>chip-DPS310</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-DPS310</instance_name>
+	<position>0</position>
+	<child_id>DPS310.i2c</child_id>
+	<child_id>DPS310.temp1</child_id>
+	<child_id>DPS310.pressure1</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>DPS310</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TMP</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TARGET-FRU-TYPE</id>
+		<default>planar</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TMP</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>DPS310.i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>DPS310.i2c</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>GPIO</default>
+		<default>I2C</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -91183,84 +92693,377 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>ENABLE</default>
+		<id>I2C_ADDRESS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>presence</id>
-	<type>dummy-presence-generic</type>
+	<id>DPS310.temp1</id>
+	<type>unit-hwmon-feature</type>
 	<is_root>false</is_root>
-	<instance_name>presence</instance_name>
+	<instance_name>DPS310.temp1</instance_name>
 	<position>-1</position>
-	<child_id>io-0</child_id>
 	<attribute>
-		<id>CLASS</id>
+		<id>AFFINITY_PATH</id>
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>temp1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
+				<field><id>WARN_LOW</id><value></value></field>
+				<field><id>WARN_HIGH</id><value></value></field>
+				<field><id>CRIT_LOW</id><value></value></field>
+				<field><id>CRIT_HIGH</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
-		<default>GPIO_EXPANDER</default>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>DPS310.pressure1</id>
+	<type>unit-hwmon-feature</type>
+	<is_root>false</is_root>
+	<instance_name>DPS310.pressure1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>temp1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
+				<field><id>WARN_LOW</id><value></value></field>
+				<field><id>WARN_HIGH</id><value></value></field>
+				<field><id>CRIT_LOW</id><value></value></field>
+				<field><id>CRIT_HIGH</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-SI7021-0</id>
+	<type>chip-SI7021</type>
+	<is_root>false</is_root>
+	<instance_name>blyth-SI7021</instance_name>
+	<position>0</position>
+	<child_id>SI7021.i2c</child_id>
+	<child_id>SI7021.temp1</child_id>
+	<child_id>SI7021.humidity1</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>SI7021</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TMP</default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PRESENCE_DETECT</id>
-		<default></default>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TARGET-FRU-TYPE</id>
+		<default>planar</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TMP</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>SI7021.i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>SI7021.i2c</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>cablecard-PCA9551</id>
+	<id>SI7021.temp1</id>
+	<type>unit-hwmon-feature</type>
+	<is_root>false</is_root>
+	<instance_name>SI7021.temp1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>temp1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
+				<field><id>WARN_LOW</id><value></value></field>
+				<field><id>WARN_HIGH</id><value></value></field>
+				<field><id>CRIT_LOW</id><value></value></field>
+				<field><id>CRIT_HIGH</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>SI7021.humidity1</id>
+	<type>unit-hwmon-feature</type>
+	<is_root>false</is_root>
+	<instance_name>SI7021.humidity1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>temp1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
+				<field><id>WARN_LOW</id><value></value></field>
+				<field><id>WARN_HIGH</id><value></value></field>
+				<field><id>CRIT_LOW</id><value></value></field>
+				<field><id>CRIT_HIGH</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>blyth-PCA9551-0</id>
 	<type>chip-PCA9551</type>
 	<is_root>false</is_root>
-	<instance_name>cablecard-PCA9551</instance_name>
-	<position>-1</position>
+	<instance_name>blyth-PCA9551</instance_name>
+	<position>0</position>
 	<child_id>PCA9551.gpio-0</child_id>
 	<child_id>PCA9551.gpio-1</child_id>
 	<child_id>PCA9551.gpio-2</child_id>
@@ -91305,7 +93108,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91916,6 +93719,2000 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>led-sys-id-0</id>
+	<type>led-led-generic</type>
+	<is_root>false</is_root>
+	<instance_name>led-sys-id</instance_name>
+	<position>0</position>
+	<child_id>led_enable</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<attribute>
+		<id>BLINK_RATE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BLINK_ROLLUP</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>CONTROL_GROUPS</id>
+		<default>
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50
+        </default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LED_COLOR</id>
+		<default>BLUE</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
+		<id>LED_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>ON_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_FRONT</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_INTERNAL</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_REAR</id>
+		<default>NO</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>led-enc-fault-1</id>
+	<type>led-led-generic</type>
+	<is_root>false</is_root>
+	<instance_name>led-enc-fault</instance_name>
+	<position>1</position>
+	<child_id>led_enable</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<attribute>
+		<id>BLINK_RATE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BLINK_ROLLUP</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>CONTROL_GROUPS</id>
+		<default>
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50
+        </default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LED_COLOR</id>
+		<default>AMBER</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
+		<id>LED_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>ON_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_FRONT</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_INTERNAL</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_REAR</id>
+		<default>NO</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>led-check-log-0</id>
+	<type>led-led-generic</type>
+	<is_root>false</is_root>
+	<instance_name>led-check-log</instance_name>
+	<position>0</position>
+	<child_id>led_enable</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<attribute>
+		<id>BLINK_RATE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BLINK_ROLLUP</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>CONTROL_GROUPS</id>
+		<default>
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50
+        </default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LED_COLOR</id>
+		<default>AMBER</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
+		<id>LED_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>ON_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_FRONT</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_INTERNAL</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_REAR</id>
+		<default>NO</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>led-sys-pwron-0</id>
+	<type>led-led-generic</type>
+	<is_root>false</is_root>
+	<instance_name>led-sys-pwron</instance_name>
+	<position>0</position>
+	<child_id>led_enable</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<attribute>
+		<id>BLINK_RATE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BLINK_ROLLUP</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>CONTROL_GROUPS</id>
+		<default>
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50
+        </default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LED_COLOR</id>
+		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>ON</default>
+	</attribute>
+	<attribute>
+		<id>LED_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>ON_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_FRONT</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_INTERNAL</id>
+		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_REAR</id>
+		<default>NO</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>op-panel-lcd-0</id>
+	<type>connector-card-generic</type>
+	<is_root>false</is_root>
+	<instance_name>op-panel-lcd</instance_name>
+	<position>0</position>
+	<child_id>Hill-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default>D1</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default>RELATIVE</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Hill-0</id>
+	<type>card-daughtercard</type>
+	<is_root>false</is_root>
+	<instance_name>Hill</instance_name>
+	<position>0</position>
+	<child_id>generic-logic-assoc</child_id>
+	<child_id>Hill-vpd-0</child_id>
+	<child_id>Hill-presence-0</child_id>
+	<child_id>Hill-89LPC932-0</child_id>
+	<child_id>led_assoc_child</child_id>
+	<attribute>
+		<id>CARD_TYPE</id>
+		<default>OP-PANEL</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CARD</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>CRU</default>
+	</attribute>
+	<attribute>
+		<id>STANDBY_PLUGGABLE</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Hill-vpd-0</id>
+	<type>chip-planar_vpd-device</type>
+	<is_root>false</is_root>
+	<instance_name>Hill-vpd</instance_name>
+	<position>0</position>
+	<child_id>i2c-slave</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<child_id>vpd_assoc_parent</child_id>
+	<attribute>
+		<id>BYTE_ADDRESS_OFFSET</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MEMORY_SIZE_IN_KB</id>
+		<default>0x40</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_TYPE</id>
+		<default>PCVPD</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_CYCLE_TIME</id>
+		<default>20</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_PAGE_SIZE</id>
+		<default>32</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Hill-presence-0</id>
+	<type>dummy-presence-generic</type>
+	<is_root>false</is_root>
+	<instance_name>Hill-presence</instance_name>
+	<position>0</position>
+	<child_id>io-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRESENCE_DETECT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Hill-89LPC932-0</id>
+	<type>chip-89LPC932</type>
+	<is_root>false</is_root>
+	<instance_name>Hill-89LPC932</instance_name>
+	<position>0</position>
+	<child_id>89LPC932.i2c-0</child_id>
+	<child_id>89LPC932.gpio-slave-0</child_id>
+	<child_id>89LPC932.gpio-slave-1</child_id>
+	<child_id>89LPC932.gpio-slave-2</child_id>
+	<child_id>89LPC932.gpio-slave-3</child_id>
+	<child_id>89LPC932.gpio-slave-4</child_id>
+	<child_id>89LPC932.gpio-slave-5</child_id>
+	<child_id>89LPC932.gpio-slave-6</child_id>
+	<child_id>89LPC932.gpio-slave-7</child_id>
+	<child_id>89LPC932.gpio-master-8</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.i2c-0</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.i2c</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-1</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-2</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>2</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-3</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>3</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-4</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>4</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-5</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>5</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-6</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>6</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-slave-7</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-slave</instance_name>
+	<position>7</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>89LPC932.gpio-master-8</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>89LPC932.gpio-master</instance_name>
+	<position>8</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fan-card-conn-0</id>
+	<type>connector-fanconn-fan</type>
+	<is_root>false</is_root>
+	<instance_name>fan-card-conn</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340-0</id>
+	<type>chip-TUSB7340</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340</instance_name>
+	<position>0</position>
+	<child_id>TUSB7340.USB0</child_id>
+	<child_id>TUSB7340.USB1</child_id>
+	<child_id>TUSB7340.USB2</child_id>
+	<child_id>TUSB7340.USB3</child_id>
+	<child_id>TUSB7340.RESET</child_id>
+	<child_id>TUSB7340.PCIE-X1</child_id>
+	<child_id>TUSB7340.clk-in</child_id>
+	<attribute>
+		<id>32BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>32BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default>0x8241</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSI</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default>0x104C</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB0</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB1</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB2</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB3</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.RESET</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.RESET</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_INPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.PCIE-X1</id>
+	<type>unit-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.PCIE-X1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>PCIE</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SLOT_INDEX</id>
+		<default>-1</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.clk-in</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.clk-in</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcieslot-x8-0</id>
+	<type>slot-pcieslot-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pcieslot-x8</instance_name>
+	<position>0</position>
+	<child_id>pciecard-0</child_id>
+	<attribute>
+		<id>32BIT_DMA_SIZE</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>32BIT_MMIO_SIZE</id>
+		<default>2040</default>
+	</attribute>
+	<attribute>
+		<id>64BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_MMIO_SIZE</id>
+		<default>256</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>DEFAULT_PCIE_COOLING_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDDW_ORDER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default>C1</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default>RELATIVE</default>
+	</attribute>
+	<attribute>
+		<id>MAX_POWER</id>
+		<default>75</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSI</id>
+		<default>4072</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SLOT_INDEX</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SLOT_TYPE</id>
+		<default>DIRECT</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pciecard-0</id>
+	<type>card-pciecard-cablecard</type>
+	<is_root>false</is_root>
+	<instance_name>pciecard</instance_name>
+	<position>0</position>
+	<child_id>pciep</child_id>
+	<child_id>i2c-slave</child_id>
+	<child_id>pgood</child_id>
+	<child_id>enable</child_id>
+	<child_id>presence</child_id>
+	<child_id>cablecard-PCA9551</child_id>
+	<child_id>cablecard-TMP275A</child_id>
+	<child_id>clk-in</child_id>
+	<child_id>cablecard-CXP-TOP</child_id>
+	<child_id>cablecard-CXP-BOT</child_id>
+	<child_id>cablecard-LED-CXP-TOP</child_id>
+	<child_id>cablecard-LED-CXP-BOT</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CARD_TYPE</id>
+		<default>PCIE</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CARD</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pgood</id>
+	<type>unit-pgood-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pgood</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>PGOOD</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>enable</id>
+	<type>unit-enable-generic</type>
+	<is_root>false</is_root>
+	<instance_name>enable</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>ENABLE</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>presence</id>
+	<type>dummy-presence-generic</type>
+	<is_root>false</is_root>
+	<instance_name>presence</instance_name>
+	<position>-1</position>
+	<child_id>io-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRESENCE_DETECT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>cablecard-PCA9551</id>
+	<type>chip-PCA9551</type>
+	<is_root>false</is_root>
+	<instance_name>cablecard-PCA9551</instance_name>
+	<position>-1</position>
+	<child_id>PCA9551.gpio-0</child_id>
+	<child_id>PCA9551.gpio-1</child_id>
+	<child_id>PCA9551.gpio-2</child_id>
+	<child_id>PCA9551.gpio-3</child_id>
+	<child_id>PCA9551.gpio-4</child_id>
+	<child_id>PCA9551.gpio-5</child_id>
+	<child_id>PCA9551.gpio-6</child_id>
+	<child_id>PCA9551.gpio-7</child_id>
+	<child_id>PCA9551.i2c-0</child_id>
+	<child_id>PCA9551.RESET</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
