@@ -5674,17 +5674,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/TUSB7340.PCIE-X1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value>IN</value>
-	</property>
-	<property>
-	<id>SLOT_INDEX</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp-PCA9552-8/PCA9552.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5912,6 +5901,28 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c32</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-0/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-1/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6985,6 +6996,61 @@
 	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0</id>
 	<property>
 	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.PCIE-X1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18155,6 +18221,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-hmc-connector-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-hmc-connector-1</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-i210-0/I210.pcie</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18217,6 +18297,56 @@
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb2-connector-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb2-connector-1</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb3-connector-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb3-connector-0/usb3-port-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb3-connector-0/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb3-connector-1</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/Tola-usb3-connector-1/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -48785,12 +48915,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus => Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/TUSB7340.PCIE-X1</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus => TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.PCIE-X1</bus_id>
 		<bus_type>PCIE</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/</source_path>
 		<source_target>phb5_x4_bus</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/</dest_path>
+		<dest_path>TPM-conn-0/Tourmalet-0/TUSB7340-0/</dest_path>
 		<dest_target>TUSB7340.PCIE-X1</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -49191,32 +49321,55 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus => Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/TUSB7340.PCIE-X1</bus_id>
-		<bus_type>PCIE</bus_type>
+		<bus_id>TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB2 => Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-0/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</bus_id>
+		<bus_type>USB</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/</source_path>
-		<source_target>phb5_x4_bus</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/TUSB7340-0/</dest_path>
-		<dest_target>TUSB7340.PCIE-X1</dest_target>
+		<source_path>TPM-conn-0/Tourmalet-0/TUSB7340-0/</source_path>
+		<source_target>TUSB7340.USB2</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-0/usb3-port-0/USB3_1PORT-0/</dest_path>
+		<dest_target>USB3_1PORT.usb-0</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB3 => Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-1/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</bus_id>
+		<bus_type>USB</bus_type>
+		<cable>no</cable>
+		<source_path>TPM-conn-0/Tourmalet-0/TUSB7340-0/</source_path>
+		<source_target>TUSB7340.USB3</source_target>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/front-usb3-conn-1/usb3-port-0/USB3_1PORT-0/</dest_path>
+		<dest_target>USB3_1PORT.usb-0</dest_target>
 		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys-0/node-0/bellavista-0/proc_socket-0/godel-0(power10),L:/sys-0/node-0/bellavista-0</default>
+			<id>CLASS</id>
+		<default>BUS</default>
 		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB0 => eBMC-card-conn-0/Tola-0/Tola-usb3-connector-0/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</bus_id>
+		<bus_type>USB</bus_type>
+		<cable>no</cable>
+		<source_path>TPM-conn-0/Tourmalet-0/TUSB7340-0/</source_path>
+		<source_target>TUSB7340.USB0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-usb3-connector-0/usb3-port-0/USB3_1PORT-0/</dest_path>
+		<dest_target>USB3_1PORT.usb-0</dest_target>
 		<bus_attribute>
-			<id>LANE_REVERSAL</id>
-		<default>00</default>
+			<id>CLASS</id>
+		<default>BUS</default>
 		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>TPM-conn-0/Tourmalet-0/TUSB7340-0/TUSB7340.USB1 => eBMC-card-conn-0/Tola-0/Tola-usb3-connector-1/usb3-port-0/USB3_1PORT-0/USB3_1PORT.usb-0</bus_id>
+		<bus_type>USB</bus_type>
+		<cable>no</cable>
+		<source_path>TPM-conn-0/Tourmalet-0/TUSB7340-0/</source_path>
+		<source_target>TUSB7340.USB1</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/Tola-usb3-connector-1/usb3-port-0/USB3_1PORT-0/</dest_path>
+		<dest_target>USB3_1PORT.usb-0</dest_target>
 		<bus_attribute>
-			<id>PCIE_LANE_EQUALIZATION</id>
-		<default>all,0x33,0x33</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>PCIE_SWAP_CLKS</id>
-		<default>0</default>
+			<id>CLASS</id>
+		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -50142,10 +50295,12 @@
 	<child_id>generic-logic-assoc</child_id>
 	<child_id>bmc-0</child_id>
 	<child_id>Tola-vpd-0</child_id>
+	<child_id>Tola-usb2-connector-0</child_id>
+	<child_id>Tola-usb2-connector-1</child_id>
 	<child_id>Tola-hmc-connector-0</child_id>
 	<child_id>Tola-hmc-connector-1</child_id>
 	<child_id>Tola-usb3-connector-0</child_id>
-	<child_id>Tola-usb2-connector-0</child_id>
+	<child_id>Tola-usb3-connector-1</child_id>
 	<child_id>Tola-rtc-0</child_id>
 	<child_id>Tola-tpm-1</child_id>
 	<child_id>Tola-i210-0</child_id>
@@ -50158,6 +50313,7 @@
 	<child_id>IR35220-00-0</child_id>
 	<child_id>TDA38740-01-0</child_id>
 	<child_id>IR35220-01-0</child_id>
+	<child_id>TOD_battery-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -88645,6 +88801,200 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>Tola-usb2-connector-0</id>
+	<type>connector-card-generic</type>
+	<is_root>false</is_root>
+	<instance_name>Tola-usb2-connector</instance_name>
+	<position>0</position>
+	<child_id>bmc-usb2-1port-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default>T0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default>RELATIVE</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>bmc-usb2-1port-0</id>
+	<type>card-daughtercard</type>
+	<is_root>false</is_root>
+	<instance_name>bmc-usb2-1port</instance_name>
+	<position>0</position>
+	<child_id>led_assoc_child</child_id>
+	<child_id>USB2_1PORT-0</child_id>
+	<attribute>
+		<id>CARD_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CARD</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>STANDBY_PLUGGABLE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>USB2_1PORT-0</id>
+	<type>chip-USB2_1PORT</type>
+	<is_root>false</is_root>
+	<instance_name>USB2_1PORT</instance_name>
+	<position>0</position>
+	<child_id>USB2_1PORT.usb-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>USB2_1PORT.usb-0</id>
+	<type>unit-usb-slave</type>
+	<is_root>false</is_root>
+	<instance_name>USB2_1PORT.usb</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Tola-usb2-connector-1</id>
+	<type>connector-card-generic</type>
+	<is_root>false</is_root>
+	<instance_name>Tola-usb2-connector</instance_name>
+	<position>1</position>
+	<child_id>bmc-usb2-1port-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default>T1</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default>RELATIVE</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>Tola-hmc-connector-0</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -88661,7 +89011,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default>T0</default>
+		<default>T2</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
@@ -88819,7 +89169,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default>T1</default>
+		<default>T3</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
@@ -88844,7 +89194,7 @@
 	<is_root>false</is_root>
 	<instance_name>Tola-usb3-connector</instance_name>
 	<position>0</position>
-	<child_id>host-usb3-1port-0</child_id>
+	<child_id>usb3-port-0</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -88855,7 +89205,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default>T2</default>
+		<default>T4</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
@@ -88875,10 +89225,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>host-usb3-1port-0</id>
+	<id>usb3-port-0</id>
 	<type>card-daughtercard</type>
 	<is_root>false</is_root>
-	<instance_name>host-usb3-1port</instance_name>
+	<instance_name>usb3-port</instance_name>
 	<position>0</position>
 	<child_id>led_assoc_child</child_id>
 	<child_id>USB3_1PORT-0</child_id>
@@ -89005,12 +89355,12 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Tola-usb2-connector-0</id>
+	<id>Tola-usb3-connector-1</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
-	<instance_name>Tola-usb2-connector</instance_name>
-	<position>0</position>
-	<child_id>bmc-usb2-1port-0</child_id>
+	<instance_name>Tola-usb3-connector</instance_name>
+	<position>1</position>
+	<child_id>usb3-port-0</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -89021,7 +89371,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
-		<default>T4</default>
+		<default>T5</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
@@ -89033,129 +89383,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>bmc-usb2-1port-0</id>
-	<type>card-daughtercard</type>
-	<is_root>false</is_root>
-	<instance_name>bmc-usb2-1port</instance_name>
-	<position>0</position>
-	<child_id>led_assoc_child</child_id>
-	<child_id>USB2_1PORT-0</child_id>
-	<attribute>
-		<id>CARD_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>CARD</default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>STANDBY_PLUGGABLE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>USB2_1PORT-0</id>
-	<type>chip-USB2_1PORT</type>
-	<is_root>false</is_root>
-	<instance_name>USB2_1PORT</instance_name>
-	<position>0</position>
-	<child_id>USB2_1PORT.usb-0</child_id>
-	<attribute>
-		<id>CLASS</id>
-		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>USB2_1PORT.usb-0</id>
-	<type>unit-usb-slave</type>
-	<is_root>false</is_root>
-	<instance_name>USB2_1PORT.usb</instance_name>
-	<position>0</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>USB</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91227,6 +91455,181 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>TOD_battery-0</id>
+	<type>chip-TOD_BATTERY</type>
+	<is_root>false</is_root>
+	<instance_name>TOD_battery</instance_name>
+	<position>0</position>
+	<child_id>TOD_BATTERY.gpio-master-0</child_id>
+	<child_id>TOD_BATTERY.gpio-slave-1</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default>E0</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default>RELATIVE</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TOD_BATTERY.gpio-master-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>TOD_BATTERY.gpio-master</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TOD_BATTERY.gpio-slave-1</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>TOD_BATTERY.gpio-slave</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>TPM-conn-0</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -91271,6 +91674,7 @@
 	<child_id>generic-logic-assoc</child_id>
 	<child_id>led_assoc_child</child_id>
 	<child_id>tourmalet_vpd-0</child_id>
+	<child_id>TUSB7340-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -91359,6 +91763,450 @@
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
 		<default>32</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340-0</id>
+	<type>chip-TUSB7340</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340</instance_name>
+	<position>0</position>
+	<child_id>TUSB7340.USB0</child_id>
+	<child_id>TUSB7340.USB1</child_id>
+	<child_id>TUSB7340.USB2</child_id>
+	<child_id>TUSB7340.USB3</child_id>
+	<child_id>TUSB7340.RESET</child_id>
+	<child_id>TUSB7340.PCIE-X1</child_id>
+	<child_id>TUSB7340.clk-in</child_id>
+	<attribute>
+		<id>32BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>32BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default>0x8241</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSI</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default>0x104C</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB0</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB1</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB2</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.USB3</id>
+	<type>unit-usb-master</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.USB3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.RESET</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.RESET</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_INPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.PCIE-X1</id>
+	<type>unit-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.PCIE-X1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>PCIE</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SLOT_INDEX</id>
+		<default>-1</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>null</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TUSB7340.clk-in</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>TUSB7340.clk-in</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -96098,7 +96946,6 @@
 	<child_id>fan-card-conn-1</child_id>
 	<child_id>fan-card-conn-2</child_id>
 	<child_id>fan-card-conn-3</child_id>
-	<child_id>TUSB7340-0</child_id>
 	<child_id>basecamp_vpd-2</child_id>
 	<child_id>basecamp-PCA9552-8</child_id>
 	<child_id>basecamp_PCA9552-9</child_id>
@@ -96116,6 +96963,8 @@
 	<child_id>PCA9646-i2c16-2</child_id>
 	<child_id>PCA9646-i2c16-3</child_id>
 	<child_id>PCA9646-i2c16-4</child_id>
+	<child_id>front-usb3-conn-0</child_id>
+	<child_id>front-usb3-conn-1</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -99997,450 +100846,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>TUSB7340-0</id>
-	<type>chip-TUSB7340</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340</instance_name>
-	<position>0</position>
-	<child_id>TUSB7340.USB0</child_id>
-	<child_id>TUSB7340.USB1</child_id>
-	<child_id>TUSB7340.USB2</child_id>
-	<child_id>TUSB7340.USB3</child_id>
-	<child_id>TUSB7340.RESET</child_id>
-	<child_id>TUSB7340.PCIE-X1</child_id>
-	<child_id>TUSB7340.clk-in</child_id>
-	<attribute>
-		<id>32BIT_DMA_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>32BIT_MMIO_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>64BIT_DMA_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>64BIT_MMIO_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>DEVICE_ID</id>
-		<default>0x8241</default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FSI_OPTION_FLAGS</id>
-		<default>
-				<field><id>flipPort</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>MSI</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VENDOR_ID</id>
-		<default>0x104C</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.USB0</id>
-	<type>unit-usb-master</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.USB0</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>USB</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VENDOR_ID</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.USB1</id>
-	<type>unit-usb-master</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.USB1</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>USB</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VENDOR_ID</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.USB2</id>
-	<type>unit-usb-master</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.USB2</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>USB</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VENDOR_ID</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.USB3</id>
-	<type>unit-usb-master</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.USB3</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>USB</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VENDOR_ID</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.RESET</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.RESET</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_INPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.PCIE-X1</id>
-	<type>unit-pcie-endpoint</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.PCIE-X1</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SLOT_INDEX</id>
-		<default>-1</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>null</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>TUSB7340.clk-in</id>
-	<type>unit-clk-slave</type>
-	<is_root>false</is_root>
-	<instance_name>TUSB7340.clk-in</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>CLK</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>basecamp_vpd-2</id>
 	<type>chip-planar_vpd-device</type>
 	<is_root>false</is_root>
@@ -104025,6 +104430,78 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>I2C_MUX</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>front-usb3-conn-0</id>
+	<type>connector-usb-generic</type>
+	<is_root>false</is_root>
+	<instance_name>front-usb3-conn</instance_name>
+	<position>0</position>
+	<child_id>usb3-port-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>front-usb3-conn-1</id>
+	<type>connector-usb-generic</type>
+	<is_root>false</is_root>
+	<instance_name>front-usb3-conn</instance_name>
+	<position>1</position>
+	<child_id>usb3-port-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>USB</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
