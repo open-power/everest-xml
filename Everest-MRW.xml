@@ -18480,13 +18480,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/ocapi-conn-0</id>
-	<property>
-	<id>CONNECTOR_TYPE</id>
-	<value>SAS</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/pcieslot-x16-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
