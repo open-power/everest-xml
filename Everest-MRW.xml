@@ -6937,7 +6937,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22405,7 +22405,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_MTM</id>
-		<default>NULL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
@@ -48808,7 +48808,7 @@
 		<dest_target>pciep</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>null</default>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -92169,7 +92169,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
