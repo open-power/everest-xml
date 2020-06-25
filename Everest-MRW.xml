@@ -32,6 +32,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>BMC_ACCESS</id>
+		<enumerator>
+		<name>NO</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>YES</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>BOOT_PAU_DPLL_BYPASS</id>
 		<enumerator>
 		<name>BYPASS</name>
@@ -206,6 +217,10 @@
 		<enumerator>
 		<name>POWER-INTERFACE</name>
 		<value>22</value>
+		</enumerator>
+		<enumerator>
+		<name>DCM-MODULE</name>
+		<value>28</value>
 		</enumerator>
 		<enumerator>
 		<name>POWERSUPPLY</name>
@@ -642,6 +657,10 @@
 		<enumerator>
 		<name>USB</name>
 		<value>9</value>
+		</enumerator>
+		<enumerator>
+		<name>DISPLAYPORT</name>
+		<value>16</value>
 		</enumerator>
 		<enumerator>
 		<name>PCIE_X16_CARD</name>
@@ -1116,18 +1135,37 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>FREQ_IOHS_MHZ</id>
+	<id>FREQ_IOHS_LINK_MHZ</id>
 		<enumerator>
-		<name>2070</name>
-		<value>2070</value>
+		<name>32500</name>
+		<value>32500</value>
 		</enumerator>
+		<enumerator>
+		<name>25781</name>
+		<value>25781</value>
+		</enumerator>
+		<enumerator>
+		<name>33750</name>
+		<value>33750</value>
+		</enumerator>
+		<enumerator>
+		<name>32000</name>
+		<value>32000</value>
+		</enumerator>
+		<enumerator>
+		<name>33067</name>
+		<value>33067</value>
+		</enumerator>
+		<enumerator>
+		<name>31875</name>
+		<value>31875</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>FREQ_IOHS_MHZ</id>
 		<enumerator>
 		<name>1611</name>
 		<value>1611</value>
-		</enumerator>
-		<enumerator>
-		<name>1563</name>
-		<value>1563</value>
 		</enumerator>
 		<enumerator>
 		<name>1992</name>
@@ -1142,8 +1180,12 @@
 		<value>2000</value>
 		</enumerator>
 		<enumerator>
-		<name>1250</name>
-		<value>1250</value>
+		<name>2031</name>
+		<value>2031</value>
+		</enumerator>
+		<enumerator>
+		<name>2109</name>
+		<value>2109</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -1187,8 +1229,8 @@
 		<value>21330</value>
 		</enumerator>
 		<enumerator>
-		<name>19200</name>
-		<value>19200</value>
+		<name>32000</name>
+		<value>32000</value>
 		</enumerator>
 		<enumerator>
 		<name>25600</name>
@@ -1213,6 +1255,13 @@
 		<name>2133</name>
 		<value>2133</value>
 		</enumerator>
+		<enumerator>
+		<name>2000</name>
+		<value>2000</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>FREQ_PCIE_MHZ</id>
 		<enumerator>
 		<name>2000</name>
 		<value>2000</value>
@@ -1555,10 +1604,6 @@
 		<value>0x0</value>
 		</enumerator>
 		<enumerator>
-		<name>NV</name>
-		<value>0x2</value>
-		</enumerator>
-		<enumerator>
 		<name>SMPA</name>
 		<value>0x1</value>
 		</enumerator>
@@ -1674,10 +1719,6 @@
 		<value>0x4000</value>
 		</enumerator>
 		<enumerator>
-		<name>PEF_SSO</name>
-		<value>0x2000</value>
-		</enumerator>
-		<enumerator>
 		<name>RESERVED_2</name>
 		<value>0x00FF</value>
 		</enumerator>
@@ -1687,7 +1728,7 @@
 		</enumerator>
 		<enumerator>
 		<name>RESERVED_1</name>
-		<value>0x0E00</value>
+		<value>0x2E00</value>
 		</enumerator>
 		<enumerator>
 		<name>NONE</name>
@@ -18398,7 +18439,7 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19761,83 +19802,115 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>1</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-2</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>2</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-3</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>3</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-4</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>4</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-5</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>5</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-6</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/fsim-7</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
+	<value>7</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/i2c-master-dimm01</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/i2c-master-dimm23</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20071,6 +20144,83 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/i2c-master-dimm45</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20300,7 +20450,102 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/fsim-7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -20515,14 +20760,91 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsi-slave-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -20755,7 +21077,102 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/fsim-7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -20977,7 +21394,91 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -21196,7 +21697,102 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsi-slave-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/fsim-7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -21334,14 +21930,91 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsi-slave-1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/fsim-6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -21653,6 +22326,10 @@
 	</attribute>
 	<attribute>
 		<id>DYNAMIC_INIT_FEATURE_VEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DYNAMIC_INIT_MODE_VEC</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22352,6 +23029,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SECURE_VERSION_LOCKIN_POLICY</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>SECURITY_ENABLE</id>
 		<default>0</default>
 	</attribute>
@@ -22405,7 +23086,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_MTM</id>
-		<default></default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
@@ -22462,6 +23143,10 @@
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>WOF_INDEX_SELECT</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>WOF_THROTTLE_CONTROL_LOOP_MODE</id>
@@ -22543,6 +23228,10 @@
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SECURE_VERSION_SEEPROM</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -48808,7 +49497,7 @@
 		<dest_target>pciep</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default></default>
+		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -90210,6 +90899,10 @@
 		<default>YES</default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -90355,6 +91048,10 @@
 		<default>NO</default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -90435,6 +91132,10 @@
 	<attribute>
 		<id>BLINK_ROLLUP</id>
 		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -92296,26 +92997,6 @@
 	<instance_name>apss.ADCCH0</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92348,24 +93029,8 @@
 		<default>20.04</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_0</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92391,26 +93056,6 @@
 	<instance_name>apss.ADCCH1</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>6.5</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92443,24 +93088,8 @@
 		<default>6.5</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_1</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92486,26 +93115,6 @@
 	<instance_name>apss.ADCCH10</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>11</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92538,24 +93147,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_2</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92581,26 +93174,6 @@
 	<instance_name>apss.ADCCH11</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>11</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>12</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92633,24 +93206,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_3</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92676,26 +93233,6 @@
 	<instance_name>apss.ADCCH12</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>12</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>20</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92728,24 +93265,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_12V_SENSE</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92771,26 +93292,6 @@
 	<instance_name>apss.ADCCH13</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>13</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>22</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92823,24 +93324,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_TOTAL_SYS_CURRENT</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92866,26 +93351,6 @@
 	<instance_name>apss.ADCCH14</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>14</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>23</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -92918,24 +93383,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEM_CACHE</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92961,26 +93410,6 @@
 	<instance_name>apss.ADCCH15</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>15</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>13</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93013,24 +93442,8 @@
 		<default>20.04</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_IO_A</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93056,26 +93469,6 @@
 	<instance_name>apss.ADCCH2</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93108,24 +93501,8 @@
 		<default>20.04</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_2</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93151,26 +93528,6 @@
 	<instance_name>apss.ADCCH3</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93203,24 +93560,8 @@
 		<default>20.04</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_3</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93246,26 +93587,6 @@
 	<instance_name>apss.ADCCH4</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93298,24 +93619,8 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_0</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93341,26 +93646,6 @@
 	<instance_name>apss.ADCCH5</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93393,24 +93678,8 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_1</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93436,26 +93705,6 @@
 	<instance_name>apss.ADCCH6</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93488,24 +93737,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_2</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93531,26 +93764,6 @@
 	<instance_name>apss.ADCCH7</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>8</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93583,24 +93796,8 @@
 		<default>9.117</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_3</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93626,26 +93823,6 @@
 	<instance_name>apss.ADCCH8</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>8</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>9</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93678,24 +93855,8 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_0</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -93721,26 +93882,6 @@
 	<instance_name>apss.ADCCH9</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default>9</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GAIN</id>
-		<default>6.494</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_GROUND</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_ID</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
-		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93773,24 +93914,8 @@
 		<default>6.494</default>
 	</attribute>
 	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0xD7</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
+		<id>GND</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_1</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -99372,6 +99497,10 @@
 		<default>YES</default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -99454,6 +99583,10 @@
 		<default>NO</default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -99534,6 +99667,10 @@
 	<attribute>
 		<id>BLINK_ROLLUP</id>
 		<default>NO</default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -100670,6 +100807,10 @@
 	<attribute>
 		<id>BLINK_ROLLUP</id>
 		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -105199,6 +105340,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -105278,6 +105423,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107509,6 +107658,10 @@
 	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
 		<default>20</default>
+	</attribute>
+	<attribute>
+		<id>WOF_DCCR_VALUE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>WOF_DCM_TRACKING_ENABLE</id>
@@ -114036,8 +114189,16 @@
 		<default>DISABLE,DISABLE,DISABLE</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+		<default>0x0,0x0,0x0</default>
+	</attribute>
+	<attribute>
 		<id>PROC_PCIE_PHB_ACTIVE</id>
 		<default>ENABLE,DISABLE,DISABLE</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+		<default>0x1,0x1,0x1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -114158,6 +114319,18 @@
 	<attribute>
 		<id>PROC_PCIE_BAR_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -114408,6 +114581,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -114597,6 +114782,18 @@
 	<attribute>
 		<id>PROC_PCIE_BAR_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -114848,6 +115045,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -115039,6 +115248,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -115228,8 +115449,16 @@
 		<default>DISABLE,DISABLE,DISABLE</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_REVERSAL_BASE</id>
+		<default>0x0,0x0,0x0</default>
+	</attribute>
+	<attribute>
 		<id>PROC_PCIE_PHB_ACTIVE</id>
 		<default>ENABLE,DISABLE,DISABLE</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_PHB_ACTIVE_BASE</id>
+		<default>0x1,0x1,0x1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -115350,6 +115579,18 @@
 	<attribute>
 		<id>PROC_PCIE_BAR_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -115600,6 +115841,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -115789,6 +116042,18 @@
 	<attribute>
 		<id>PROC_PCIE_BAR_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -116040,6 +116305,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -116229,6 +116506,18 @@
 	<attribute>
 		<id>PROC_PCIE_BAR_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
+		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
+		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -116459,6 +116748,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -116701,6 +116994,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -116947,6 +117244,10 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
 		<default>0x7D0</default>
 	</attribute>
@@ -117133,6 +117434,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -117435,6 +117740,10 @@
 		<default>4</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
 		<default>0x7D0</default>
 	</attribute>
@@ -117676,6 +117985,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -117978,6 +118291,10 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
 		<default>0x7D0</default>
 	</attribute>
@@ -118219,6 +118536,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>7</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_IOHS_LINK_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -123860,6 +124181,10 @@
 	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
 		<default>20</default>
+	</attribute>
+	<attribute>
+		<id>WOF_DCCR_VALUE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>WOF_DCM_TRACKING_ENABLE</id>
@@ -130294,6 +130619,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -131381,6 +131710,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -132226,6 +132559,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -133010,6 +133347,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -135264,6 +135605,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136353,6 +136695,77 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>PIC16F882.RESET</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PIC16F882.RESET</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_INPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>16F882_led-1</id>
 	<type>chip-PIC16F882</type>
 	<is_root>false</is_root>
@@ -136375,6 +136788,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136439,6 +136853,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136503,6 +136918,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136567,6 +136983,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136631,6 +137048,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -136695,6 +137113,7 @@
 	<child_id>PIC16F882.gpio-13</child_id>
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
+	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -144508,6 +144927,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -144587,6 +145010,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -144672,6 +145099,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -144751,6 +145182,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -144836,6 +145271,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -144915,6 +145354,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145000,6 +145443,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145079,6 +145526,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145164,6 +145615,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145243,6 +145698,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145328,6 +145787,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145407,6 +145870,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145492,6 +145959,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145571,6 +146042,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145656,6 +146131,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145735,6 +146214,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145820,6 +146303,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -145899,6 +146386,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -145984,6 +146475,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146063,6 +146558,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146148,6 +146647,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146227,6 +146730,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146312,6 +146819,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146391,6 +146902,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146476,6 +146991,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146555,6 +147074,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146640,6 +147163,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146719,6 +147246,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146804,6 +147335,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -146883,6 +147418,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -146968,6 +147507,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147047,6 +147590,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147132,6 +147679,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147211,6 +147762,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147296,6 +147851,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147375,6 +147934,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147460,6 +148023,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147539,6 +148106,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147624,6 +148195,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147703,6 +148278,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147788,6 +148367,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -147867,6 +148450,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -147952,6 +148539,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148031,6 +148622,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148116,6 +148711,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148195,6 +148794,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148280,6 +148883,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148359,6 +148966,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148444,6 +149055,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148523,6 +149138,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148608,6 +149227,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148687,6 +149310,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148772,6 +149399,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -148851,6 +149482,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -148936,6 +149571,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149015,6 +149654,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149100,6 +149743,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149179,6 +149826,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149264,6 +149915,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149343,6 +149998,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149428,6 +150087,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149507,6 +150170,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149592,6 +150259,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149671,6 +150342,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149756,6 +150431,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149835,6 +150514,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -149920,6 +150603,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -149999,6 +150686,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150084,6 +150775,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150163,6 +150858,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150248,6 +150947,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150327,6 +151030,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150412,6 +151119,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150491,6 +151202,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150576,6 +151291,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150655,6 +151374,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150740,6 +151463,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150819,6 +151546,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -150904,6 +151635,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -150983,6 +151718,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151068,6 +151807,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151147,6 +151890,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151232,6 +151979,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151311,6 +152062,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151396,6 +152151,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151475,6 +152234,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151560,6 +152323,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151639,6 +152406,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151724,6 +152495,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151803,6 +152578,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -151888,6 +152667,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -151967,6 +152750,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152052,6 +152839,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152131,6 +152922,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152216,6 +153011,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152295,6 +153094,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152380,6 +153183,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152459,6 +153266,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152544,6 +153355,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152623,6 +153438,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152708,6 +153527,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152787,6 +153610,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -152872,6 +153699,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -152951,6 +153782,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -153036,6 +153871,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -153115,6 +153954,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -153200,6 +154043,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -153279,6 +154126,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -153364,6 +154215,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BMC_ACCESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>LED</default>
 	</attribute>
@@ -153443,6 +154298,10 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_ACCESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
