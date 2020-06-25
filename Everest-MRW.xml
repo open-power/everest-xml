@@ -10500,7 +10500,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/dcm3-p1-tmp423a-7/TMP423A.i2c</id>
+	<id>/sys-0/node-0/bellavista-0/dcm3-p1-tmp423b-7/TMP423A.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -22583,7 +22583,7 @@
 	<child_id>dcm2-p0-tmp423a-4</child_id>
 	<child_id>dcm2-p1-tmp423b-5</child_id>
 	<child_id>dcm3-p0-tmp423a-6</child_id>
-	<child_id>dcm3-p1-tmp423a-7</child_id>
+	<child_id>dcm3-p1-tmp423b-7</child_id>
 	<child_id>proc_socket-0</child_id>
 	<child_id>proc_socket-1</child_id>
 	<child_id>proc_socket-2</child_id>
@@ -37006,12 +37006,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => dcm3-p0-tmp423a-0/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => dcm3-p0-tmp423a-6/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
-		<dest_path>dcm3-p0-tmp423a-0/</dest_path>
+		<dest_path>dcm3-p0-tmp423a-6/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -37039,12 +37039,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => dcm3-p1-tmp423b-1/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => dcm3-p1-tmp423b-7/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
-		<dest_path>dcm3-p1-tmp423b-1/</dest_path>
+		<dest_path>dcm3-p1-tmp423b-7/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -37798,12 +37798,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => dcm1-p0-tmp423a-0/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => dcm1-p0-tmp423a-2/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
-		<dest_path>dcm1-p0-tmp423a-0/</dest_path>
+		<dest_path>dcm1-p0-tmp423a-2/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -37831,12 +37831,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => dcm1-p1-tmp423b-1/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => dcm1-p1-tmp423b-3/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
-		<dest_path>dcm1-p1-tmp423b-1/</dest_path>
+		<dest_path>dcm1-p1-tmp423b-3/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -39382,12 +39382,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => dcm2-p0-tmp423a-0/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => dcm2-p0-tmp423a-4/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
-		<dest_path>dcm2-p0-tmp423a-0/</dest_path>
+		<dest_path>dcm2-p0-tmp423a-4/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -39415,12 +39415,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => dcm2-p1-tmp423b-1/TMP423A.i2c</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => dcm2-p1-tmp423b-5/TMP423A.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
-		<dest_path>dcm2-p1-tmp423b-1/</dest_path>
+		<dest_path>dcm2-p1-tmp423b-5/</dest_path>
 		<dest_target>TMP423A.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -106758,10 +106758,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>dcm3-p1-tmp423a-7</id>
+	<id>dcm3-p1-tmp423b-7</id>
 	<type>chip-TMP423A</type>
 	<is_root>false</is_root>
-	<instance_name>dcm3-p1-tmp423a</instance_name>
+	<instance_name>dcm3-p1-tmp423b</instance_name>
 	<position>7</position>
 	<child_id>TMP423A.i2c</child_id>
 	<child_id>TMP423A.temp1</child_id>
