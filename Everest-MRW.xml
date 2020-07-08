@@ -18576,11 +18576,11 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value></value>
+	<value>Rear enclosure fault</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
-	<value></value>
+	<value>ENC-FAULT</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18591,11 +18591,11 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value></value>
+	<value>Rear enclosure identify</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
-	<value></value>
+	<value>ENC-IDENTIFY</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18606,11 +18606,11 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value></value>
+	<value>eBMC card fault</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
-	<value></value>
+	<value>FAULT</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18636,7 +18636,1147 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/led-vrm-reist-1</id>
+	<id>/sys-0/node-0/bellavista-0/led-bellavita-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>Bellavista Sysplanar board fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-blyth-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>Blyth OpPanel Fault LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-cpu0-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CPU0 LED on Bellavista</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-cpu1-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CPU1 LED on Bellavista</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-cpu2-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CPU2 LED on Bellavista</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-cpu3-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CPU3 LED on Bellavista</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm0 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm1 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-10</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm10 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-11</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm11 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-12</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm12 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-13</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm13 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-14</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm14 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-15</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm15 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-16</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm16 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-17</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm17 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-18</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm18 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-19</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm19 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-2</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm2 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-20</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm20 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-21</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm21 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-22</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm22 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-23</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm23 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-24</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm24 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-25</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm25 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-26</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm26 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-27</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm27 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-28</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm28 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-29</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm29 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-3</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm3 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-30</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm30 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-31</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm31 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-32</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm32 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-33</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm33 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-34</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm34 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-35</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm35 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-36</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm36 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-37</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm37 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-38</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm38 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-39</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm39 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-4</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm4 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-40</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm40 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-41</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm41 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-42</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm42 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-43</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm43 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-44</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm44 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-45</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm45 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-46</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm46 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-47</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm47 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-48</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm48 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-49</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm49 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-5</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm5 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-50</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm50 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-51</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm51 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-52</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm52 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-53</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm53 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-54</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm54 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-55</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm55 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-56</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm56 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-57</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm57 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-58</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm58 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-59</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm59 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-6</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm6 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-60</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm60 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-61</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm61 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-62</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm62 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-63</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm63 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-7</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm7 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-8</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm8 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-ddimm-9</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>ddimm9 fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-hill-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>Hill OpPanel LCD fault LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot0 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot1 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-10</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot10 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-2</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot2 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-3</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot3 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-4</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -18648,6 +19788,501 @@
 	<property>
 	<id>LED_TYPE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-5</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot5 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-6</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot6 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-7</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot7 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-8</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot8 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-fault-9</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot9 Fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot0 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot1 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-10</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot10 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-2</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot2 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-3</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot3 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-4</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot4 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-5</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot5 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-6</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot6 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-7</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot7 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-8</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot8 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-pcie-slot-power-9</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>PCIe Slot9 Power</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-tod-battery-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>TOD battery fault</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-gunten-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP0 C63 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-gunten-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP1 C12 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-gunten-2</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>C20 C21 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-gunten-3</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP3 C54 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-marmet-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP3 C58 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-marmet-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP1 C16 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP01 C60 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP00 C62 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-2</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP10 C13 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-3</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP11 C11 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-4</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP20 C18 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-5</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP20 C20 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-6</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP31 C55 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-norgay-7</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP30 C57 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-reist-0</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP0 C59 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-reist-1</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value>CP2 C17 VRM LED</value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -90900,7 +92535,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -91045,11 +92680,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default>NO</default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -91106,7 +92741,7 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default>YES</default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
@@ -91114,7 +92749,7 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default>NO</default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -91135,7 +92770,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -130616,11 +132251,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -131707,11 +133342,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -132556,11 +134191,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -133347,11 +134982,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -136731,10 +138366,6 @@
 		<default>GENERIC_INPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -136750,10 +138381,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -144924,11 +146551,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -144961,7 +146588,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -144985,15 +146612,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145010,11 +146637,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145047,7 +146674,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145071,15 +146698,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145096,11 +146723,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145133,7 +146760,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145157,15 +146784,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145182,11 +146809,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145219,7 +146846,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145243,15 +146870,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145268,11 +146895,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145305,7 +146932,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145329,15 +146956,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145354,11 +146981,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145391,7 +147018,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145415,15 +147042,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145440,11 +147067,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145477,7 +147104,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145501,15 +147128,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145526,11 +147153,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145563,7 +147190,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145587,15 +147214,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145612,11 +147239,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145649,7 +147276,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145673,15 +147300,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145698,11 +147325,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145735,7 +147362,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145759,15 +147386,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145784,11 +147411,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145821,7 +147448,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145845,15 +147472,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145870,11 +147497,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145907,7 +147534,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -145931,15 +147558,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145956,11 +147583,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -145993,7 +147620,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146017,15 +147644,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146042,11 +147669,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146079,7 +147706,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146103,15 +147730,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146128,11 +147755,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146165,7 +147792,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146189,15 +147816,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146214,11 +147841,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146251,7 +147878,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146275,15 +147902,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146300,11 +147927,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146337,7 +147964,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146361,15 +147988,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146386,11 +148013,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146423,7 +148050,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146447,15 +148074,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146472,11 +148099,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146509,7 +148136,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146533,15 +148160,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146558,11 +148185,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146595,7 +148222,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146619,15 +148246,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146644,11 +148271,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146681,7 +148308,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146705,15 +148332,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146730,11 +148357,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146767,7 +148394,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146791,15 +148418,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146816,11 +148443,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146853,7 +148480,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146877,15 +148504,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146902,11 +148529,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -146939,7 +148566,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -146963,15 +148590,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146988,11 +148615,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147025,7 +148652,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147049,15 +148676,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147074,11 +148701,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147111,7 +148738,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147135,15 +148762,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147160,11 +148787,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147197,7 +148824,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147221,15 +148848,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147246,11 +148873,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147283,7 +148910,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147307,15 +148934,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147332,11 +148959,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147369,7 +148996,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147393,15 +149020,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147418,11 +149045,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147455,7 +149082,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147479,15 +149106,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147504,11 +149131,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147541,7 +149168,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147565,15 +149192,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147590,11 +149217,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147627,7 +149254,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147651,15 +149278,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147676,11 +149303,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147713,7 +149340,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147737,15 +149364,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147762,11 +149389,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147799,7 +149426,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147823,15 +149450,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147848,11 +149475,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147885,7 +149512,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147909,15 +149536,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147934,11 +149561,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -147971,7 +149598,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -147995,15 +149622,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148020,11 +149647,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148057,7 +149684,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148081,15 +149708,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148106,11 +149733,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148143,7 +149770,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148167,15 +149794,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148192,11 +149819,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148229,7 +149856,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148253,15 +149880,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148278,11 +149905,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148315,7 +149942,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148339,15 +149966,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148364,11 +149991,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148401,7 +150028,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148425,15 +150052,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148450,11 +150077,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148487,7 +150114,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148511,15 +150138,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148536,11 +150163,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148573,7 +150200,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148597,15 +150224,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148622,11 +150249,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148659,7 +150286,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148683,15 +150310,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148708,11 +150335,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148745,7 +150372,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148769,15 +150396,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148794,11 +150421,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148831,7 +150458,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148855,15 +150482,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148880,11 +150507,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -148917,7 +150544,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -148941,15 +150568,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -148966,11 +150593,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149003,7 +150630,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149027,15 +150654,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149052,11 +150679,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149089,7 +150716,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149113,15 +150740,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149138,11 +150765,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149175,7 +150802,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149199,15 +150826,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149224,11 +150851,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149261,7 +150888,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149285,15 +150912,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149310,11 +150937,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149347,7 +150974,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149371,15 +150998,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149396,11 +151023,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149433,7 +151060,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149457,15 +151084,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149482,11 +151109,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149519,7 +151146,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149543,15 +151170,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149568,11 +151195,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149605,7 +151232,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149629,15 +151256,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149654,11 +151281,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149691,7 +151318,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149715,15 +151342,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149740,11 +151367,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149777,7 +151404,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149801,15 +151428,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149826,11 +151453,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149863,7 +151490,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149887,15 +151514,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149912,11 +151539,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -149949,7 +151576,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -149973,15 +151600,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -149998,11 +151625,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150035,7 +151662,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150059,15 +151686,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150084,11 +151711,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150121,7 +151748,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150145,15 +151772,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150170,11 +151797,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150207,7 +151834,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150231,15 +151858,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150256,11 +151883,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150293,7 +151920,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150317,15 +151944,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150342,11 +151969,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150379,7 +152006,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150403,15 +152030,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150428,11 +152055,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150465,7 +152092,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150489,15 +152116,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150514,11 +152141,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150551,7 +152178,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150575,15 +152202,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150600,11 +152227,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150637,7 +152264,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150661,15 +152288,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150686,11 +152313,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150723,7 +152350,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150747,15 +152374,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150772,11 +152399,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150809,7 +152436,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150833,15 +152460,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150858,11 +152485,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150895,7 +152522,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -150919,15 +152546,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -150944,11 +152571,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -150981,7 +152608,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151005,15 +152632,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151030,11 +152657,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151067,7 +152694,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151091,15 +152718,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151116,11 +152743,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151153,7 +152780,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151177,15 +152804,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151202,11 +152829,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151263,15 +152890,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151288,11 +152915,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151325,7 +152952,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151349,15 +152976,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151374,11 +153001,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151435,15 +153062,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151460,11 +153087,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151497,7 +153124,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151521,15 +153148,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151546,11 +153173,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151607,15 +153234,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151632,11 +153259,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151669,7 +153296,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151693,15 +153320,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151718,11 +153345,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151779,15 +153406,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151804,11 +153431,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151841,7 +153468,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -151865,15 +153492,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151890,11 +153517,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -151951,15 +153578,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -151976,11 +153603,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152013,7 +153640,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152037,15 +153664,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152062,11 +153689,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152123,15 +153750,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152148,11 +153775,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152185,7 +153812,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152209,15 +153836,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152234,11 +153861,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152295,15 +153922,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152320,11 +153947,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152357,7 +153984,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152381,15 +154008,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152406,11 +154033,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152443,7 +154070,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152467,15 +154094,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152492,11 +154119,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152529,7 +154156,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152553,15 +154180,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152578,11 +154205,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152639,15 +154266,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152664,11 +154291,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152701,7 +154328,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152725,15 +154352,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152750,11 +154377,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152811,15 +154438,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152836,11 +154463,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152873,7 +154500,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
-		<default>GREEN</default>
+		<default>AMBER</default>
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
@@ -152897,15 +154524,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -152922,11 +154549,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -152983,15 +154610,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153008,11 +154635,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153069,15 +154696,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153094,11 +154721,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153155,15 +154782,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153180,11 +154807,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153241,15 +154868,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153266,11 +154893,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153327,15 +154954,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153352,11 +154979,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153413,15 +155040,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153438,11 +155065,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153499,15 +155126,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153524,11 +155151,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153585,15 +155212,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153610,11 +155237,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153671,15 +155298,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153696,11 +155323,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153757,15 +155384,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153782,11 +155409,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153843,15 +155470,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153868,11 +155495,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -153929,15 +155556,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153954,11 +155581,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -154015,15 +155642,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -154040,11 +155667,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -154101,15 +155728,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -154126,11 +155753,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -154187,15 +155814,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -154212,11 +155839,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -154273,15 +155900,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -154298,11 +155925,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -154359,15 +155986,15 @@
 	</attribute>
 	<attribute>
 		<id>VIEW_FRONT</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_INTERNAL</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>VIEW_REAR</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -154710,8 +156337,6 @@
 	<child_id>Everest-CCINS.VRM-Gluten-cpuvio</child_id>
 	<child_id>Everest-CCINS.VRM-Marmet-cpushare</child_id>
 	<child_id>Everest-CCINS.VRM-Reist-aux</child_id>
-	<child_id>Everest-CCINS.Hill-OpPanel-LCD</child_id>
-	<child_id>Everest-CCINS.Blyth-OpPanel</child_id>
 	<child_id>Everest-CCINS.Fan-Blackdog</child_id>
 	<child_id>Everest-CCINS.16GB-DDIMM_2U</child_id>
 	<child_id>Everest-CCINS.32GB-DDIMM_2U</child_id>
@@ -154731,6 +156356,8 @@
 	<child_id>Everest-CCINS.DCM-DD20-20BC-400W</child_id>
 	<child_id>Everest-CCINS.BearMountain</child_id>
 	<child_id>Everest-CCINS.Fansipan</child_id>
+	<child_id>Everest-CCINS.Hill-OpPanel-LCD</child_id>
+	<child_id>Everest-CCINS.Blyth-OpPanel</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default></default>
@@ -155118,100 +156745,6 @@
 	<attribute>
 		<id>TARGET_NAME</id>
 		<default>CPU VRM AUX Card</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>Everest-CCINS.Hill-OpPanel-LCD</id>
-	<type>override-ccin-card</type>
-	<is_root>false</is_root>
-	<instance_name>Everest-CCINS.Hill-OpPanel-LCD</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>CARD_USE</id>
-		<default>FIELD</default>
-	</attribute>
-	<attribute>
-		<id>CCIN</id>
-		<default>6B5D</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>GROUP_KEY</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>TARGET_OVERRIDE</default>
-	</attribute>
-	<attribute>
-		<id>PART_NUMBER</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUPPORTED_MTMS</id>
-		<default>9040-MRX</default>
-	</attribute>
-	<attribute>
-		<id>TARGET_NAME</id>
-		<default>Op Panel LCD Card</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>Everest-CCINS.Blyth-OpPanel</id>
-	<type>override-ccin-card</type>
-	<is_root>false</is_root>
-	<instance_name>Everest-CCINS.Blyth-OpPanel</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>CARD_USE</id>
-		<default>FIELD</default>
-	</attribute>
-	<attribute>
-		<id>CCIN</id>
-		<default>2E27</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>GROUP_KEY</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>TARGET_OVERRIDE</default>
-	</attribute>
-	<attribute>
-		<id>PART_NUMBER</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUPPORTED_MTMS</id>
-		<default>9040-MRX</default>
-	</attribute>
-	<attribute>
-		<id>TARGET_NAME</id>
-		<default>Base Op Panel Card</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -156189,6 +157722,100 @@
 	<attribute>
 		<id>TARGET_NAME</id>
 		<default>Power Distribution Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Everest-CCINS.Hill-OpPanel-LCD</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Everest-CCINS.Hill-OpPanel-LCD</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B5D</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9040-MRX</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Op Panel LCD Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Everest-CCINS.Blyth-OpPanel</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Everest-CCINS.Blyth-OpPanel</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>2E27</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9040-MRX</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Base Op Panel Card</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
