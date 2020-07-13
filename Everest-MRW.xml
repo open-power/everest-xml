@@ -22793,6 +22793,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/led-vrm-reist-1/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/led-vrm-reist-1/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -158917,7 +158928,7 @@
 	</attribute>
 	<attribute>
 		<id>CCIN</id>
-		<default>C121</default>
+		<default>2E33</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -158964,7 +158975,7 @@
 	</attribute>
 	<attribute>
 		<id>CCIN</id>
-		<default>2DF1</default>
+		<default>2E35</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -159011,7 +159022,7 @@
 	</attribute>
 	<attribute>
 		<id>CCIN</id>
-		<default>2DF0</default>
+		<default>2E34</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
