@@ -28100,13 +28100,9 @@
 	<child_id>PCA9553_CP213A-6</child_id>
 	<child_id>PCA9553_CP213B-7</child_id>
 	<child_id>TCA9554_CP00-5</child_id>
-	<child_id>PCA9552_CP21-5</child_id>
 	<child_id>TCA9554A_CP21-1</child_id>
-	<child_id>TCA9554A_CP20-2</child_id>
 	<child_id>PCA9552_CP11-6</child_id>
-	<child_id>TCA9554A_CP11-3</child_id>
 	<child_id>PCA9552_CP10-7</child_id>
-	<child_id>TCA9554A_CP10-4</child_id>
 	<child_id>PCA9552-PRSNT-i2c5-0</child_id>
 	<child_id>PCA9552-PRSNT-i2c6-1</child_id>
 	<child_id>PCA9552-PRSNT-i2c7-2</child_id>
