@@ -392,6 +392,25 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>CLOCKSTOP_ON_XSTOP</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP_AND_SPATTN</name>
+		<value>0x5B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP</name>
+		<value>0x7B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_STAGED_XSTOP</name>
+		<value>0xFD</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<enumerator>
 		<name>SYS_REFCLOCK0</name>
@@ -855,113 +874,6 @@
 		<enumerator>
 		<name>OPEN-DRAIN</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>DYNAMIC_INIT_FEATURE_VEC</id>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_SAFE</name>
-		<value>0x0000200000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_NOMINAL</name>
-		<value>0x0004000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_ULTRATURBO</name>
-		<value>0x0000100000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_USE_QME_TB_SRC</name>
-		<value>0x0000010000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>CACHE_CONTAINED</name>
-		<value>0x8000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2PA_NOMINAL</name>
-		<value>0x0020000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2PA_SAFE</name>
-		<value>0x0010000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_MC_FAST</name>
-		<value>0x0040000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T0</name>
-		<value>0x0400000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_NOMINAL</name>
-		<value>0x0000400000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T1</name>
-		<value>0x0200000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T2</name>
-		<value>0x0100000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T3</name>
-		<value>0x0080000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_TURBO</name>
-		<value>0x0008000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>HOSTBOOT</name>
-		<value>0x1000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_NOMINAL</name>
-		<value>0x0000040000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>L2RC_HIGH_JITTER</name>
-		<value>0x0800000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>MMA_STATIC_POWEROFF</name>
-		<value>0x0000004000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_SAFE</name>
-		<value>0x0002000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>HV_INITS</name>
-		<value>0x0000008000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_SAFE</name>
-		<value>0x0000020000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>COMMON_CONTAINED</name>
-		<value>0x2000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_TURBO</name>
-		<value>0x0000800000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_TURBO</name>
-		<value>0x0000080000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_ULTRATURBO</name>
-		<value>0x0001000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>CHIP_CONTAINED</name>
-		<value>0x4000000000000000</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2698,6 +2610,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MRW_L2_INCREASE_JITTER</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MRW_TYPE</id>
 		<enumerator>
 		<name>IOMUX</name>
@@ -3942,17 +3865,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PULSE_MODE_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>RAIL_NAME</id>
 		<enumerator>
 		<name>VCS</name>
@@ -4101,6 +4013,141 @@
 		<enumerator>
 		<name>UNSUPPORTED</name>
 		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>RUNN_CORE_SEED_SELECT</id>
+		<enumerator>
+		<name>CORE20</name>
+		<value>0x14</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE21</name>
+		<value>0x15</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE00</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE22</name>
+		<value>0x16</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE16</name>
+		<value>0x10</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE17</name>
+		<value>0x11</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE18</name>
+		<value>0x12</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE19</name>
+		<value>0x13</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE12</name>
+		<value>0x0c</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE13</name>
+		<value>0x0d</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE14</name>
+		<value>0x0e</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE15</name>
+		<value>0x0f</value>
+		</enumerator>
+		<enumerator>
+		<name>RANDOM</name>
+		<value>0xff</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE30</name>
+		<value>0x1e</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE31</name>
+		<value>0x1f</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE10</name>
+		<value>0x0a</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE11</name>
+		<value>0x0b</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE27</name>
+		<value>0x1b</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE05</name>
+		<value>0x05</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE28</name>
+		<value>0x1c</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE06</name>
+		<value>0x06</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE29</name>
+		<value>0x1d</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE07</name>
+		<value>0x07</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE08</name>
+		<value>0x08</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE01</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE23</name>
+		<value>0x17</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE24</name>
+		<value>0x18</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE02</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE25</name>
+		<value>0x19</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE03</name>
+		<value>0x03</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE26</name>
+		<value>0x1a</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE04</name>
+		<value>0x04</value>
+		</enumerator>
+		<enumerator>
+		<name>CORE09</name>
+		<value>0x09</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -26927,14 +26974,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DYNAMIC_INIT_FEATURE_VEC</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DYNAMIC_INIT_MODE_VEC</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>EARLY_TESTCASES_ISTEP</id>
 		<default>0x0609</default>
 	</attribute>
@@ -26945,6 +26984,14 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>k0</default>
+	</attribute>
+	<attribute>
+		<id>FIELD_TH_L2_LINE_DELETES</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>FIELD_TH_L3_LINE_DELETES</id>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CP_REFCLOCK_KHZ</id>
@@ -27002,6 +27049,10 @@
 	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>IS_MPIPL_SUPPORTED</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IS_SIMULATION</id>
@@ -27088,6 +27139,54 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MNFG_TH_L2_CACHE_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L2_DIR_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L2_LINE_DELETES</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_CACHE_CES</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_DIR_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_LINE_DELETES</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IMPES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IPL_SOFT_CE_TH_ALGO</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IUES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RCD_PARITY_ERRORS</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RT_RCE_PER_RANK</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RT_SOFT_CE_TH_ALGO</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>MNFG_XBUS_MIN_EYE_WIDTH</id>
 		<default></default>
 	</attribute>
@@ -27110,6 +27209,10 @@
 	<attribute>
 		<id>MRW_HW_MIRRORING_ENABLE</id>
 		<default>OFF</default>
+	</attribute>
+	<attribute>
+		<id>MRW_L2_INCREASE_JITTER</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
@@ -27463,6 +27566,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PAYLOAD_KIND</id>
 		<default>PHYP</default>
 	</attribute>
@@ -27493,6 +27600,10 @@
 	<attribute>
 		<id>PERF_24x7_INVOCATION_TIME_MS</id>
 		<default>0x1</default>
+	</attribute>
+	<attribute>
+		<id>PHYP_SYSTEM_TYPE</id>
+		<default>0x50300000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -27556,14 +27667,6 @@
 	</attribute>
 	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PULSE_MODE_ENABLE</id>
-		<default>DISABLE</default>
-	</attribute>
-	<attribute>
-		<id>PULSE_MODE_VALUE</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -27679,6 +27782,14 @@
 		<default>NONE</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_BRAND_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_FAMILY</id>
+		<default>ibm,p10-openbmc</default>
+	</attribute>
+	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
 		<default>0x00</default>
 	</attribute>
@@ -27705,6 +27816,10 @@
 	<attribute>
 		<id>SYSTEM_THROTTLE_PSTATE_NUMBER_LIMIT</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_TYPE</id>
+		<default>ibm,rainier</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
@@ -111888,6 +112003,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<default></default>
 	</attribute>
@@ -111989,14 +112108,6 @@
 	</attribute>
 	<attribute>
 		<id>DCADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_DCC_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_TARGET_OVERRIDE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112252,6 +112363,14 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>RUNN_CORE_SEED_SELECT</id>
+		<default>RANDOM</default>
+	</attribute>
+	<attribute>
+		<id>RUNN_MASTER_SEED</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -112272,20 +112391,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SKEWADJ_CACHE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CORE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SPIPSS_SELECT</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPI_BUS_DIV_REF</id>
-		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
@@ -128411,6 +128518,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<default></default>
 	</attribute>
@@ -128512,14 +128623,6 @@
 	</attribute>
 	<attribute>
 		<id>DCADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_DCC_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_TARGET_OVERRIDE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -128775,6 +128878,14 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>RUNN_CORE_SEED_SELECT</id>
+		<default>RANDOM</default>
+	</attribute>
+	<attribute>
+		<id>RUNN_MASTER_SEED</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -128795,20 +128906,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SKEWADJ_CACHE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CORE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SPIPSS_SELECT</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPI_BUS_DIV_REF</id>
-		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
@@ -159371,7 +159470,6 @@
 	<child_id>Everest-CCINS.Fansipan</child_id>
 	<child_id>Everest-CCINS.Russell-OpPanel-LCD</child_id>
 	<child_id>Everest-CCINS.Rover-OpPanel</child_id>
-	<child_id>Everest-CCINS.Hill-OpPanel-LCD</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default></default>
@@ -160830,53 +160928,6 @@
 	<attribute>
 		<id>TARGET_NAME</id>
 		<default>Base Op Panel Card</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>Everest-CCINS.Hill-OpPanel-LCD</id>
-	<type>override-ccin-card</type>
-	<is_root>false</is_root>
-	<instance_name>Everest-CCINS.Hill-OpPanel-LCD</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>CARD_USE</id>
-		<default>FIELD</default>
-	</attribute>
-	<attribute>
-		<id>CCIN</id>
-		<default>6B5D</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>GROUP_KEY</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>TARGET_OVERRIDE</default>
-	</attribute>
-	<attribute>
-		<id>PART_NUMBER</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SUPPORTED_MTMS</id>
-		<default>9040-MRX</default>
-	</attribute>
-	<attribute>
-		<id>TARGET_NAME</id>
-		<default>Op Panel LCD Card</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
