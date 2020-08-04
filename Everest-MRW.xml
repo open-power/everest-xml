@@ -5136,7 +5136,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp-PCA9552-8/PCA9552.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp_PCA9552-8/PCA9552.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -51250,12 +51250,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-3 => Dasd-BP-conn-0/BaseCamp-0/basecamp-PCA9552-8/PCA9552.i2c-0</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-3 => Dasd-BP-conn-0/BaseCamp-0/basecamp_PCA9552-8/PCA9552.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-3</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/basecamp-PCA9552-8/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/basecamp_PCA9552-8/</dest_path>
 		<dest_target>PCA9552.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -102331,7 +102331,7 @@
 	<child_id>fan-card-conn-2</child_id>
 	<child_id>fan-card-conn-3</child_id>
 	<child_id>basecamp_vpd-2</child_id>
-	<child_id>basecamp-PCA9552-8</child_id>
+	<child_id>basecamp_PCA9552-8</child_id>
 	<child_id>basecamp_PCA9552-9</child_id>
 	<child_id>MAX31785-0</child_id>
 	<child_id>IR35220-BMC16_10-11</child_id>
@@ -106205,10 +106205,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>basecamp-PCA9552-8</id>
+	<id>basecamp_PCA9552-8</id>
 	<type>chip-PCA9552</type>
 	<is_root>false</is_root>
-	<instance_name>basecamp-PCA9552</instance_name>
+	<instance_name>basecamp_PCA9552</instance_name>
 	<position>8</position>
 	<child_id>PCA9552.i2c-0</child_id>
 	<child_id>PCA9552.gpio-0</child_id>
