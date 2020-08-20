@@ -1101,17 +1101,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>FREQ_MCA_MHZ</id>
-		<enumerator>
-		<name>2400</name>
-		<value>2400</value>
-		</enumerator>
-		<enumerator>
-		<name>2000</name>
-		<value>2000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>FREQ_MC_MHZ</id>
 		<enumerator>
 		<name>1600</name>
@@ -1540,6 +1529,47 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IOHS_SPREAD_SPECTRUM</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+		<enumerator>
+		<name>MID_LOSS</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>LOW_LOSS</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>HIGH_LOSS</name>
+		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IO_OMI_CHANNEL_LOSS</id>
+		<enumerator>
+		<name>MID_LOSS</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>LOW_LOSS</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>HIGH_LOSS</name>
+		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>IO_O_CHANNEL_TYPE</id>
 		<enumerator>
 		<name>BOARD</name>
@@ -1650,6 +1680,10 @@
 		<value>0x4000</value>
 		</enumerator>
 		<enumerator>
+		<name>MFG_ALL</name>
+		<value>0x0200</value>
+		</enumerator>
+		<enumerator>
 		<name>RESERVED_2</name>
 		<value>0x00FF</value>
 		</enumerator>
@@ -1659,7 +1693,7 @@
 		</enumerator>
 		<enumerator>
 		<name>RESERVED_1</name>
-		<value>0x2E00</value>
+		<value>0x2C00</value>
 		</enumerator>
 		<enumerator>
 		<name>NONE</name>
@@ -2765,6 +2799,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>OMI_SPREAD_SPECTRUM</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OPTICS_CONFIG_MODE</id>
 		<enumerator>
 		<name>SMP</name>
@@ -2919,17 +2964,6 @@
 		<enumerator>
 		<name>ALLBUT3TO7OFF</name>
 		<value>3</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PMCR_MOST_RECENT_MODE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3100,17 +3134,6 @@
 		</enumerator>
 		<enumerator>
 		<name>2_BYTE</name>
-		<value>0x02</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FABRIC_PUMP_MODE</id>
-		<enumerator>
-		<name>CHIP_IS_NODE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>CHIP_IS_GROUP</name>
 		<value>0x02</value>
 		</enumerator>
 </enumerationType>
@@ -3856,21 +3879,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SPIPSS_SELECT</id>
-		<enumerator>
-		<name>CS1</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>CS0</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0xFF</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SPI_CONNECTION_TYPE</id>
 		<enumerator>
 		<name>CFAM</name>
@@ -3994,17 +4002,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SYSTEM_RVRM_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SYSTEM_VDM_DISABLE</id>
 		<enumerator>
 		<name>OFF</name>
@@ -4013,43 +4010,6 @@
 		<enumerator>
 		<name>ON</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOF_DISABLE</id>
-		<enumerator>
-		<name>OFF_SKIP_DD</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOV_OVERV_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOV_UNDERV_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4559,17 +4519,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>WOF_DCM_TRACKING_ENABLE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>WOF_ENABLE_FRATIO</id>
 		<enumerator>
 		<name>FIXED</name>
@@ -4600,17 +4549,6 @@
 		<enumerator>
 		<name>TURBO</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>WOF_THROTTLE_CONTROL_LOOP_MODE</id>
-		<enumerator>
-		<name>BINARY</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>DECINC</name>
-		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5136,21 +5074,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp_PCA9552-8/PCA9552.i2c-0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value>IN</value>
-	</property>
-	<property>
-	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp_ADS7138-0/ADS7138.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5174,6 +5097,21 @@
 	<property>
 	<id>I2C_ADDRESS</id>
 	<value>0x3E</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/basecamp_PCA9552-8/PCA9552.i2c-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -6269,6 +6207,52 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6280,6 +6264,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-presence-0</id>
+	<property>
+	<id>PRESENCE_DETECT</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6314,6 +6305,52 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6336,6 +6373,52 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6355,6 +6438,52 @@
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value>AC_POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6749,6 +6878,75 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en20</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en32</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6760,6 +6958,29 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.pmbus-cntrl</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10044,6 +10265,29 @@
 	<id>/sys-0/node-0/bellavista-0/VRM-vio-vpcie-conn-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/bellavista_presence-0/io-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17908,6 +18152,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/PIC18F2XK20-0/PIC18F2XK20.RA1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/PIC18F2XK20-0/PIC18F2XK20.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18119,6 +18386,59 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AB7_gpiow0w7_espi_lpc/chip-bmc-ast2600.pingroup_lpc/chip-bmc-ast2600.LPC</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AC24_gpioo6_pwm6/chip-bmc-ast2600.pingroup_gpioo6/chip-bmc-ast2600.GPIOO6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie/chip-bmc-ast2600.pcie</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18225,6 +18545,36 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D22_gpiof0_sd1_pwm8</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D22_gpiof0_sd1_pwm8/chip-bmc-ast2600.pingroup_gpiof0/chip-bmc-ast2600.GPIOF0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18235,6 +18585,36 @@
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E19_gpioj2j3_i2c2/chip-bmc-ast2600.pingroup_i2c2/chip-bmc-ast2600.I2C2</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E22_gpiof1_pwm9</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E22_gpiof1_pwm9/chip-bmc-ast2600.pingroup_gpiof1/chip-bmc-ast2600.GPIOF1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18260,9 +18640,182 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/chip-bmc-ast2600.GPIOS6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2/chip-bmc-ast2600.pingroup_uart2/chip-bmc-ast2600.UART2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R23_gpios0</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R23_gpios0/chip-bmc-ast2600.pingroup_gpios0/chip-bmc-ast2600.GPIOS0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/chip-bmc-ast2600.GPIOS4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_U24_gpior1_tach9/chip-bmc-ast2600.pingroup_gpior1/chip-bmc-ast2600.GPIOR1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_V24_gpior2_tach10/chip-bmc-ast2600.pingroup_gpior2/chip-bmc-ast2600.GPIOR2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_W26_gpior6_tach14/chip-bmc-ast2600.pingroup_gpior6/chip-bmc-ast2600.GPIOR6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -23866,6 +24419,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/lpc-master</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -24024,6 +24584,29 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb5_x4/phb5_x4_bus</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -24338,6 +24921,29 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/pec1/pec1_x8_x4_x4_config/phb4_x4/phb4_x4_bus</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-1/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -24692,6 +25298,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-0/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
@@ -25016,6 +25645,29 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/pec1/pec1_x8_x8_config/phb4_x8/phb4_x8_bus</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-1/godel-0/power10-1/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -25370,6 +26022,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-0/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
@@ -25684,6 +26359,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-2/godel-0/power10-1/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -25957,6 +26655,29 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/pec1/pec1_x8_x4_x4_config/phb3_x8/phb3_x8_bus</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-0/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -26253,6 +26974,29 @@
 	<value></value>
 	</property>
 </globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-3/godel-0/power10-1/stby-reset-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
@@ -26418,6 +27162,10 @@
 	<attribute>
 		<id>FIELD_TH_L3_LINE_DELETES</id>
 		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_CORE_NOMINAL_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CP_REFCLOCK_KHZ</id>
@@ -27052,10 +27800,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_FABRIC_TOPOLOGY_MODE</id>
 		<default>MODE0</default>
 	</attribute>
@@ -27082,6 +27826,10 @@
 	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
@@ -27160,10 +27908,6 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>STOP_LEVELS_DISABLED</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>STOP_LEVELS_SUPPORTED</id>
 		<default>0xA410</default>
 	</attribute>
@@ -27208,10 +27952,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_RVRM_DISABLE</id>
-		<default>OFF</default>
-	</attribute>
-	<attribute>
 		<id>SYSTEM_THROTTLE_PSTATE_NUMBER_LIMIT</id>
 		<default>0xFF</default>
 	</attribute>
@@ -27222,18 +27962,6 @@
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOF_DISABLE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOV_OVERV_DISABLE</id>
-		<default>OFF</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOV_UNDERV_DISABLE</id>
-		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -27262,10 +27990,6 @@
 	<attribute>
 		<id>WOF_INDEX_SELECT</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_THROTTLE_CONTROL_LOOP_MODE</id>
-		<default>BINARY</default>
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
@@ -27336,6 +28060,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_NVME_PHB_CONFIG</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -28939,6 +29667,447 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/proc_socket-0/godel-0(power10),H:/sys-0/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/chip-bmc-ast2600.GPIOS4 => Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOS4</source_target>
+		<dest_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/</dest_path>
+		<dest_target>POWER_SUPPLY.fan-full-speed-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0, H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/chip-bmc-ast2600.GPIOS4 => Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOS4</source_target>
+		<dest_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/</dest_path>
+		<dest_target>POWER_SUPPLY.fan-full-speed-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0, H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/chip-bmc-ast2600.GPIOS4 => Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOS4</source_target>
+		<dest_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/</dest_path>
+		<dest_target>POWER_SUPPLY.fan-full-speed-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0, H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/chip-bmc-ast2600.GPIOS4 => Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.fan-full-speed-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_R26_gpios4/chip-bmc-ast2600.pingroup_gpios4/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOS4</source_target>
+		<dest_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/</dest_path>
+		<dest_target>POWER_SUPPLY.fan-full-speed-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0, H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D22_gpiof0_sd1_pwm8/chip-bmc-ast2600.pingroup_gpiof0/chip-bmc-ast2600.GPIOF0 => eBMC-card-conn-0/Tola-0/PIC18F2XK20-0/PIC18F2XK20.RA1</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_D22_gpiof0_sd1_pwm8/chip-bmc-ast2600.pingroup_gpiof0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOF0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/PIC18F2XK20-0/</dest_path>
+		<dest_target>PIC18F2XK20.RA1</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E22_gpiof1_pwm9/chip-bmc-ast2600.pingroup_gpiof1/chip-bmc-ast2600.GPIOF1 => UCD90320-0/UCD90320.en32</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E22_gpiof1_pwm9/chip-bmc-ast2600.pingroup_gpiof1/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOF1</source_target>
+		<dest_path>UCD90320-0/</dest_path>
+		<dest_target>UCD90320.en32</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0(ucd90320-0)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-0/godel-0/power10-0/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-0/godel-0/power10-1/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-1/godel-0/power10-0/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-1/godel-0/power10-1/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-2/godel-0/power10-0/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-2/godel-0/power10-0/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-2/godel-0/power10-1/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-2/godel-0/power10-1/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-2/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-3/godel-0/power10-0/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-3/godel-0/power10-0/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/chip-bmc-ast2600.GPIOQ0 => proc_socket-3/godel-0/power10-1/stby-reset-slave</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AA25_gpioq0_tach0/chip-bmc-ast2600.pingroup_gpioq0/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOQ0</source_target>
+		<dest_path>proc_socket-3/godel-0/power10-1/</dest_path>
+		<dest_target>stby-reset-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/proc_socket-3/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_U24_gpior1_tach9/chip-bmc-ast2600.pingroup_gpior1/chip-bmc-ast2600.GPIOR1 => UCD90320-0/UCD90320.pmbus-cntrl</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_U24_gpior1_tach9/chip-bmc-ast2600.pingroup_gpior1/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOR1</source_target>
+		<dest_path>UCD90320-0/</dest_path>
+		<dest_target>UCD90320.pmbus-cntrl</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0(ucd90320-0)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en20 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_V24_gpior2_tach10/chip-bmc-ast2600.pingroup_gpior2/chip-bmc-ast2600.GPIOR2</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en20</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_V24_gpior2_tach10/chip-bmc-ast2600.pingroup_gpior2/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOR2</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0(ucd90320-0)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bellavista_presence-0/io-0 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_W26_gpior6_tach14/chip-bmc-ast2600.pingroup_gpior6/chip-bmc-ast2600.GPIOR6</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bellavista_presence-0/</source_path>
+		<source_target>io-0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_W26_gpior6_tach14/chip-bmc-ast2600.pingroup_gpior6/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOR6</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/chip-bmc-ast2600.GPIOS6</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0/power-supply-blackbox-0/</source_path>
+		<source_target>POWER_SUPPLY.alert-0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOS6</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-0/power-supply-0, L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/chip-bmc-ast2600.GPIOS6</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0/power-supply-blackbox-0/</source_path>
+		<source_target>POWER_SUPPLY.alert-0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOS6</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0, L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/chip-bmc-ast2600.GPIOS6</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0/power-supply-blackbox-0/</source_path>
+		<source_target>POWER_SUPPLY.alert-0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOS6</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0, L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/POWER_SUPPLY.alert-0 => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/chip-bmc-ast2600.GPIOS6</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0/power-supply-blackbox-0/</source_path>
+		<source_target>POWER_SUPPLY.alert-0</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P23_gpios6/chip-bmc-ast2600.pingroup_gpios6/</dest_path>
+		<dest_target>chip-bmc-ast2600.GPIOS6</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0, L:/sys-0/node-0/bellavista-0,H:/sys/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -52603,6 +53772,19 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/lpc-master => eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AB7_gpiow0w7_espi_lpc/chip-bmc-ast2600.pingroup_lpc/chip-bmc-ast2600.LPC</bus_id>
+		<bus_type>LPC</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>lpc-master</source_target>
+		<dest_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_AB7_gpiow0w7_espi_lpc/chip-bmc-ast2600.pingroup_lpc/</dest_path>
+		<dest_target>chip-bmc-ast2600.LPC</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0 => ddimm-conn-56/ddimm2U-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
@@ -54157,6 +55339,27 @@
 		<bus_attribute>
 			<id>PCIE_SWAP_CLKS</id>
 		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2/chip-bmc-ast2600.pingroup_uart2/chip-bmc-ast2600.UART2 => everest-apss-0/apss.UART-S0</bus_id>
+		<bus_type>U750</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_P25_gpion0n7_uart2/chip-bmc-ast2600.pingroup_uart2/</source_path>
+		<source_target>chip-bmc-ast2600.UART2</source_target>
+		<dest_path>everest-apss-0/</dest_path>
+		<dest_target>apss.UART-S0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>4</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -112385,14 +113588,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
 		<default>0x00</default>
 	</attribute>
@@ -112517,6 +113712,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_EVEN</id>
 		<default>0x00</default>
 	</attribute>
@@ -112561,6 +113760,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OMI_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>PAU_DPLL_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -112575,10 +113778,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0</default>
-	</attribute>
-	<attribute>
-		<id>PMCR_MOST_RECENT_MODE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -112629,23 +113828,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_FREQUENCY_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SAFE_MODE_THROTTLE_IDX</id>
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_VOLTAGE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPIPSS_SELECT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112661,19 +113848,11 @@
 		<default>PROC</default>
 	</attribute>
 	<attribute>
-		<id>UNSECURE_HOMER_SIZE</id>
-		<default>0x1000</default>
-	</attribute>
-	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
 		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>WOF_DCCR_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCM_TRACKING_ENABLE</id>
 		<default></default>
 	</attribute>
 </targetInstance>
@@ -116481,6 +117660,18 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -116550,6 +117741,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -116776,6 +117979,18 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -116845,6 +118060,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -117188,6 +118415,18 @@
 		<default>4</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -117257,6 +118496,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -117483,6 +118734,18 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -117552,6 +118815,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>7</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -117895,6 +119170,18 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -117964,6 +119251,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>9</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -118190,6 +119489,18 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -118259,6 +119570,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>11</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -118602,6 +119925,18 @@
 		<default>12</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -118671,6 +120006,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>13</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -118897,6 +120244,18 @@
 		<default>14</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -118966,6 +120325,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>15</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -121631,6 +123002,18 @@
 		<default>FALSE</default>
 	</attribute>
 	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>LINK_SPEED</id>
 		<default>25G</default>
 	</attribute>
@@ -121875,6 +123258,18 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -122125,6 +123520,18 @@
 		<default>FALSE</default>
 	</attribute>
 	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>LINK_SPEED</id>
 		<default>25G</default>
 	</attribute>
@@ -122315,6 +123722,18 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -122621,6 +124040,18 @@
 		<default>FALSE</default>
 	</attribute>
 	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>LINK_SPEED</id>
 		<default>25G</default>
 	</attribute>
@@ -122866,6 +124297,18 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -123172,6 +124615,18 @@
 		<default>FALSE</default>
 	</attribute>
 	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>LINK_SPEED</id>
 		<default>25G</default>
 	</attribute>
@@ -123417,6 +124872,18 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -128740,14 +130207,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
 		<default>0x00</default>
 	</attribute>
@@ -128872,6 +130331,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_EVEN</id>
 		<default>0x00</default>
 	</attribute>
@@ -128916,6 +130379,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OMI_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>PAU_DPLL_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -128930,10 +130397,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-1</default>
-	</attribute>
-	<attribute>
-		<id>PMCR_MOST_RECENT_MODE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -128984,23 +130447,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_FREQUENCY_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SAFE_MODE_THROTTLE_IDX</id>
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_VOLTAGE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPIPSS_SELECT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -129016,19 +130467,11 @@
 		<default>PROC</default>
 	</attribute>
 	<attribute>
-		<id>UNSECURE_HOMER_SIZE</id>
-		<default>0x1000</default>
-	</attribute>
-	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
 		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>WOF_DCCR_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCM_TRACKING_ENABLE</id>
 		<default></default>
 	</attribute>
 </targetInstance>
@@ -129967,6 +131410,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
