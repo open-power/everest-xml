@@ -8616,7 +8616,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x32</value>
+	<value>0x30</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8631,7 +8631,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x70</value>
+	<value>0x60</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8646,7 +8646,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x72</value>
+	<value>0x62</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8661,7 +8661,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x74</value>
+	<value>0x64</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8676,7 +8676,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x76</value>
+	<value>0x66</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8691,7 +8691,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x78</value>
+	<value>0x68</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8706,7 +8706,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7A</value>
+	<value>0x6A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8721,7 +8721,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7C</value>
+	<value>0x6C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8736,7 +8736,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7E</value>
+	<value>0x6E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8813,7 +8813,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x30</value>
+	<value>0x32</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8828,7 +8828,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x60</value>
+	<value>0x70</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8843,7 +8843,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x62</value>
+	<value>0x72</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8858,7 +8858,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x64</value>
+	<value>0x74</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8873,7 +8873,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x66</value>
+	<value>0x76</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8888,7 +8888,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x68</value>
+	<value>0x78</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8926,7 +8926,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6A</value>
+	<value>0x7A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8941,7 +8941,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6C</value>
+	<value>0x7C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -8956,7 +8956,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6E</value>
+	<value>0x7E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9019,6 +9019,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -9033,7 +9040,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x30</value>
+	<value>0x32</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9048,7 +9055,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x60</value>
+	<value>0x70</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9063,7 +9070,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x62</value>
+	<value>0x72</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9078,7 +9085,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x64</value>
+	<value>0x74</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9093,7 +9100,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x66</value>
+	<value>0x76</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9108,7 +9115,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x68</value>
+	<value>0x78</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9146,7 +9153,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6A</value>
+	<value>0x7A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9161,7 +9168,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6C</value>
+	<value>0x7C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9176,7 +9183,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6E</value>
+	<value>0x7E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9253,7 +9260,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x32</value>
+	<value>0x30</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9268,7 +9275,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x70</value>
+	<value>0x60</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9283,7 +9290,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x72</value>
+	<value>0x62</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9298,7 +9305,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x74</value>
+	<value>0x64</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9313,7 +9320,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x76</value>
+	<value>0x66</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9328,7 +9335,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x78</value>
+	<value>0x68</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9343,7 +9350,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7A</value>
+	<value>0x6A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9358,7 +9365,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7C</value>
+	<value>0x6C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9373,7 +9380,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7E</value>
+	<value>0x6E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9388,6 +9395,29 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-3/norgay-vrm-vdd-0/PCA9555-0/PCA9555.gpio-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9429,6 +9459,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -9443,7 +9480,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x30</value>
+	<value>0x32</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9458,7 +9495,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x60</value>
+	<value>0x70</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9473,7 +9510,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x62</value>
+	<value>0x72</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9488,7 +9525,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x64</value>
+	<value>0x74</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9503,7 +9540,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x66</value>
+	<value>0x76</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9518,7 +9555,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x68</value>
+	<value>0x78</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9533,7 +9570,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6A</value>
+	<value>0x7A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9571,7 +9608,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6C</value>
+	<value>0x7C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9586,7 +9623,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6E</value>
+	<value>0x7E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9642,6 +9679,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -9656,7 +9700,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x32</value>
+	<value>0x30</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9671,7 +9715,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x70</value>
+	<value>0x60</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9686,7 +9730,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x72</value>
+	<value>0x62</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9724,7 +9768,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x74</value>
+	<value>0x64</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9739,7 +9783,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x76</value>
+	<value>0x66</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9777,7 +9821,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x78</value>
+	<value>0x68</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9792,7 +9836,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7A</value>
+	<value>0x6A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9807,7 +9851,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7C</value>
+	<value>0x6C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9822,7 +9866,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7E</value>
+	<value>0x6E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9892,7 +9936,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x32</value>
+	<value>0x30</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9907,7 +9951,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x70</value>
+	<value>0x60</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9922,7 +9966,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x72</value>
+	<value>0x62</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9937,7 +9981,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x74</value>
+	<value>0x64</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9952,7 +9996,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x76</value>
+	<value>0x66</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9967,7 +10011,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x78</value>
+	<value>0x68</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9982,7 +10026,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7A</value>
+	<value>0x6A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9997,7 +10041,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7C</value>
+	<value>0x6C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10012,7 +10056,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x7E</value>
+	<value>0x6E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10068,6 +10112,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
@@ -10082,7 +10133,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x30</value>
+	<value>0x32</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10108,7 +10159,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x60</value>
+	<value>0x70</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10123,7 +10174,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x62</value>
+	<value>0x72</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10138,7 +10189,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x64</value>
+	<value>0x74</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10153,7 +10204,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x66</value>
+	<value>0x76</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10168,7 +10219,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x68</value>
+	<value>0x78</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10183,10 +10234,33 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6A</value>
+	<value>0x7A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35220_vdd-7/IR35220.gpio-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10198,7 +10272,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6C</value>
+	<value>0x7C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10213,7 +10287,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x6E</value>
+	<value>0x7E</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -24605,6 +24679,13 @@
 	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/proc_socket-0/godel-0/power10-0/pec0/pec0_x16_config</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
 	<value></value>
 	</property>
 </globalSetting>
