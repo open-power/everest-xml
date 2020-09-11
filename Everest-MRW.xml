@@ -1431,6 +1431,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>HW543384_WAR_MODE</id>
+		<enumerator>
+		<name>FBC_FLOW_CONTROL</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>TIE_NEST_TO_PAU</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>NONE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>HWAS_CHANGED_BIT</id>
 		<enumerator>
 		<name>HOSTSVC_HBEL</name>
@@ -1823,21 +1838,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<enumerator>
-		<name>SET_NONE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>SET_1</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>SET_2</name>
-		<value>0x2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4136,6 +4136,10 @@
 		<value>77</value>
 		</enumerator>
 		<enumerator>
+		<name>GENERIC_I2C_DEVICE</name>
+		<value>85</value>
+		</enumerator>
+		<enumerator>
 		<name>XBUS</name>
 		<value>14</value>
 		</enumerator>
@@ -4189,7 +4193,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>85</value>
+		<value>86</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -4744,6 +4748,51 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Bellavista_ADS7138_Imon_C1-C4/ADS7138.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x2A</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Bellavista_ADS7138_Imon_C5-C8/ADS7138.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x2C</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/Bellavista_ADS7138_Imon_C9-C11/ADS7138.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x2E</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/Bellavista_PCA9552_CardPresent-4/PCA9552.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4774,14 +4823,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Bellavista_TCA9554_IOexpander-0/PCA9554.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/Bellavista_PCA9552_VRMcardPresent-10/PCA9552.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x40</value>
+	<value>0xC6</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -5797,14 +5846,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0</id>
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/LED0-ID-0</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/LED0-ID-0</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -5819,7 +5868,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-BMP280-0/BMP280.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-BMP280-0/BMP280.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5834,7 +5883,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-DPS310-0/DPS310.i2c</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-DPS310-0/DPS310.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5849,7 +5898,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-PCA9551-0/PCA9551.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-PCA9551-0/PCA9551.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5864,7 +5913,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-SI7021-0/SI7021.i2c</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-SI7021-0/SI7021.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5879,7 +5928,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-TMP275A-0/TMP275.i2c</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-TMP275A-0/TMP275.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5894,7 +5943,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-TMP275A-0/i2c-slave</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-TMP275A-0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -5909,7 +5958,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-vpd-0/i2c-slave</id>
+	<id>/sys-0/node-0/bellavista-0/Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-vpd-0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18743,6 +18792,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12</id>
 	<property>
 	<id>DIRECTION</id>
@@ -19011,14 +19067,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/led-Rover-0</id>
+	<id>/sys-0/node-0/bellavista-0/led-Russell-0</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>Blyth OpPanel Fault LED</value>
+	<value>Hill OpPanel LCD fault LED</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
@@ -19026,7 +19082,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/led-Rover-0/led_enable</id>
+	<id>/sys-0/node-0/bellavista-0/led-Russell-0/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19049,14 +19105,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/led-Russell-0</id>
+	<id>/sys-0/node-0/bellavista-0/led-Stormking-0</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>Hill OpPanel LCD fault LED</value>
+	<value>Blyth OpPanel Fault LED</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
@@ -19064,7 +19120,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/led-Russell-0/led_enable</id>
+	<id>/sys-0/node-0/bellavista-0/led-Stormking-0/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -27800,6 +27856,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>HW543384_WAR_MODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -28407,10 +28467,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
 		<default></default>
 	</attribute>
@@ -28460,10 +28516,6 @@
 	</attribute>
 	<attribute>
 		<id>SECTOR_BUFFER_STRENGTH</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SECURE_VERSION_LOCKIN_POLICY</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -28571,6 +28623,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>WOF_TABLE_LID_NUMBER</id>
+		<default>0x81E00440</default>
+	</attribute>
+	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
 		<default>0x00</default>
 	</attribute>
@@ -28650,10 +28706,6 @@
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SECURE_VERSION_SEEPROM</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -28781,7 +28833,7 @@
 	<child_id>VRM-aux2-conn-0</child_id>
 	<child_id>Bellavista_PCA9552_Resets-3</child_id>
 	<child_id>Bellavista_PCA9552_CardPresent-4</child_id>
-	<child_id>Bellavista_TCA9554_IOexpander-0</child_id>
+	<child_id>Bellavista_PCA9552_VRMcardPresent-10</child_id>
 	<child_id>9ZXL0451E_I2C2-0</child_id>
 	<child_id>9ZXL0451E_I2C2-1</child_id>
 	<child_id>9ZXL0451E_I2C2-2</child_id>
@@ -28816,7 +28868,7 @@
 	<child_id>led-cpu2-0</child_id>
 	<child_id>led-cpu3-0</child_id>
 	<child_id>led-tod-battery-0</child_id>
-	<child_id>led-Rover-0</child_id>
+	<child_id>led-Stormking-0</child_id>
 	<child_id>led-Russell-0</child_id>
 	<child_id>led-ddimm-0</child_id>
 	<child_id>led-ddimm-1</child_id>
@@ -28920,6 +28972,9 @@
 	<child_id>led-vrm-marmet-1</child_id>
 	<child_id>led-vrm-reist-0</child_id>
 	<child_id>led-vrm-reist-1</child_id>
+	<child_id>Bellavista_ADS7138_Imon_C1-C4</child_id>
+	<child_id>Bellavista_ADS7138_Imon_C5-C8</child_id>
+	<child_id>Bellavista_ADS7138_Imon_C9-C11</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -50078,7 +50133,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-1/power-supply-0,L:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50086,7 +50141,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -50111,7 +50166,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-2/power-supply-0,L:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50119,7 +50174,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -50144,7 +50199,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),H:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0/power-supply-conn-3/power-supply-0,L:/sys-0/node-0/bellavista-0/Power-riser-conn-0/Fansipan-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50152,7 +50207,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -50457,39 +50512,6 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_B20_gpioj0j1_i2c1/chip-bmc-ast2600.pingroup_i2c1/chip-bmc-ast2600.I2C1 => Bellavista_TCA9554_IOexpander-0/PCA9554.i2c-0</bus_id>
-		<bus_type>I2C</bus_type>
-		<cable>no</cable>
-		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_B20_gpioj0j1_i2c1/chip-bmc-ast2600.pingroup_i2c1/</source_path>
-		<source_target>chip-bmc-ast2600.I2C1</source_target>
-		<dest_path>Bellavista_TCA9554_IOexpander-0/</dest_path>
-		<dest_target>PCA9554.i2c-0</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_PURPOSE</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_SPEED</id>
-		<default>400</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_TYPE</id>
-		<default></default>
-		</bus_attribute>
-	</bus>
-	<bus>
 		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_B20_gpioj0j1_i2c1/chip-bmc-ast2600.pingroup_i2c1/chip-bmc-ast2600.I2C1 => 9ZXL0451E_I2C1-3/9ZXL0451E.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
@@ -50563,6 +50585,39 @@
 		<source_target>chip-bmc-ast2600.I2C1</source_target>
 		<dest_path>SI5332-1/</dest_path>
 		<dest_target>SI5332.i2c-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_B20_gpioj0j1_i2c1/chip-bmc-ast2600.pingroup_i2c1/chip-bmc-ast2600.I2C1 => Bellavista_PCA9552_VRMcardPresent-10/PCA9552.i2c-0</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_B20_gpioj0j1_i2c1/chip-bmc-ast2600.pingroup_i2c1/</source_path>
+		<source_target>chip-bmc-ast2600.I2C1</source_target>
+		<dest_path>Bellavista_PCA9552_VRMcardPresent-10/</dest_path>
+		<dest_target>PCA9552.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -54285,12 +54340,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-vpd-0/i2c-slave</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-vpd-0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-2</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-vpd-0/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-vpd-0/</dest_path>
 		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -54302,7 +54357,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Rover-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Stormking-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54318,12 +54373,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-TMP275A-0/i2c-slave</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-TMP275A-0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-2</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-TMP275A-0/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-TMP275A-0/</dest_path>
 		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -54335,7 +54390,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Rover-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Stormking-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54351,12 +54406,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-DPS310-0/DPS310.i2c</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-DPS310-0/DPS310.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-2</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-DPS310-0/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-DPS310-0/</dest_path>
 		<dest_target>DPS310.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -54368,7 +54423,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Rover-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Stormking-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54384,12 +54439,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-PCA9551-0/PCA9551.i2c-0</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-PCA9551-0/PCA9551.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-2</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-PCA9551-0/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-PCA9551-0/</dest_path>
 		<dest_target>PCA9551.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -54401,7 +54456,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Rover-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Stormking-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54417,12 +54472,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-SI7021-0/SI7021.i2c</bus_id>
+		<bus_id>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/PCA9646.i2cm-2 => Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-SI7021-0/SI7021.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>Dasd-BP-conn-0/BaseCamp-0/PCA9646-i2c15-0/</source_path>
 		<source_target>PCA9646.i2cm-2</source_target>
-		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Rover-0/Rover-SI7021-0/</dest_path>
+		<dest_path>Dasd-BP-conn-0/BaseCamp-0/op-panel-base-0/Stormking-0/Stormking-SI7021-0/</dest_path>
 		<dest_target>SI7021.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -54434,7 +54489,106 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Rover-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		<default>H:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0/op-panel-base-0/Stormking-0,L:/sys/node-0/bellavista-0/Dasd-BP-conn/BaseCamp-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_C20_gpioj6j7_i2c4/chip-bmc-ast2600.pingroup_i2c4/chip-bmc-ast2600.I2C4 => Bellavista_ADS7138_Imon_C5-C8/ADS7138.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_C20_gpioj6j7_i2c4/chip-bmc-ast2600.pingroup_i2c4/</source_path>
+		<source_target>chip-bmc-ast2600.I2C4</source_target>
+		<dest_path>Bellavista_ADS7138_Imon_C5-C8/</dest_path>
+		<dest_target>ADS7138.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => Bellavista_ADS7138_Imon_C9-C11/ADS7138.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
+		<source_target>chip-bmc-ast2600.I2C11</source_target>
+		<dest_path>Bellavista_ADS7138_Imon_C9-C11/</dest_path>
+		<dest_target>ADS7138.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => Bellavista_ADS7138_Imon_C1-C4/ADS7138.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
+		<source_target>chip-bmc-ast2600.I2C14</source_target>
+		<dest_path>Bellavista_ADS7138_Imon_C1-C4/</dest_path>
+		<dest_target>ADS7138.i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys/node-0/bellavista-0/eBMC-card-conn-0/Tola-0(BMC-0),L:/sys-0/node-0/bellavista-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -97227,6 +97381,14 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>TPM_ENABLED</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TPM_MODEL</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default></default>
 	</attribute>
@@ -100372,7 +100534,7 @@
 	<child_id>led-tourmalet-power-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
-		<default>NA</default>
+		<default>TPM</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -100992,6 +101154,14 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TPM_ENABLED</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TPM_MODEL</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -106265,7 +106435,7 @@
 	<is_root>false</is_root>
 	<instance_name>op-panel-base</instance_name>
 	<position>0</position>
-	<child_id>Rover-0</child_id>
+	<child_id>Stormking-0</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
@@ -106296,20 +106466,20 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-0</id>
+	<id>Stormking-0</id>
 	<type>card-daughtercard</type>
 	<is_root>false</is_root>
-	<instance_name>Rover</instance_name>
+	<instance_name>Stormking</instance_name>
 	<position>0</position>
 	<child_id>generic-logic-assoc</child_id>
-	<child_id>Rover-vpd-0</child_id>
-	<child_id>Rover-presence-0</child_id>
-	<child_id>Rover-switch-reset-0</child_id>
-	<child_id>Rover-switch-pwron-1</child_id>
-	<child_id>Rover-TMP275A-0</child_id>
-	<child_id>Rover-DPS310-0</child_id>
-	<child_id>Rover-PCA9551-0</child_id>
-	<child_id>Rover-SI7021-0</child_id>
+	<child_id>Stormking-vpd-0</child_id>
+	<child_id>Stormking-presence-0</child_id>
+	<child_id>Stormking-switch-reset-0</child_id>
+	<child_id>Stormking-switch-pwron-1</child_id>
+	<child_id>Stormking-TMP275A-0</child_id>
+	<child_id>Stormking-DPS310-0</child_id>
+	<child_id>Stormking-PCA9551-0</child_id>
+	<child_id>Stormking-SI7021-0</child_id>
 	<child_id>LED0-ID-0</child_id>
 	<child_id>LED1-ATTN-1</child_id>
 	<child_id>LED2-FAULT-2</child_id>
@@ -106357,10 +106527,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-vpd-0</id>
+	<id>Stormking-vpd-0</id>
 	<type>chip-planar_vpd-device</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-vpd</instance_name>
+	<instance_name>Stormking-vpd</instance_name>
 	<position>0</position>
 	<child_id>i2c-slave</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -106407,10 +106577,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-presence-0</id>
+	<id>Stormking-presence-0</id>
 	<type>dummy-presence-generic</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-presence</instance_name>
+	<instance_name>Stormking-presence</instance_name>
 	<position>0</position>
 	<child_id>io-0</child_id>
 	<attribute>
@@ -106439,10 +106609,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-switch-reset-0</id>
+	<id>Stormking-switch-reset-0</id>
 	<type>chip-SWITCH</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-switch-reset</instance_name>
+	<instance_name>Stormking-switch-reset</instance_name>
 	<position>0</position>
 	<child_id>SWITCH.gpio-master-0</child_id>
 	<attribute>
@@ -106550,10 +106720,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-switch-pwron-1</id>
+	<id>Stormking-switch-pwron-1</id>
 	<type>chip-SWITCH</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-switch-pwron</instance_name>
+	<instance_name>Stormking-switch-pwron</instance_name>
 	<position>1</position>
 	<child_id>SWITCH.gpio-master-0</child_id>
 	<attribute>
@@ -106598,10 +106768,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-TMP275A-0</id>
+	<id>Stormking-TMP275A-0</id>
 	<type>chip-tmp-device</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-TMP275A</instance_name>
+	<instance_name>Stormking-TMP275A</instance_name>
 	<position>0</position>
 	<child_id>i2c-slave</child_id>
 	<attribute>
@@ -106642,10 +106812,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-DPS310-0</id>
+	<id>Stormking-DPS310-0</id>
 	<type>chip-DPS310</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-DPS310</instance_name>
+	<instance_name>Stormking-DPS310</instance_name>
 	<position>0</position>
 	<child_id>DPS310.i2c</child_id>
 	<child_id>DPS310.temp1</child_id>
@@ -106859,10 +107029,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-PCA9551-0</id>
+	<id>Stormking-PCA9551-0</id>
 	<type>chip-PCA9551</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-PCA9551</instance_name>
+	<instance_name>Stormking-PCA9551</instance_name>
 	<position>0</position>
 	<child_id>PCA9551.gpio-0</child_id>
 	<child_id>PCA9551.gpio-1</child_id>
@@ -106874,6 +107044,10 @@
 	<child_id>PCA9551.gpio-7</child_id>
 	<child_id>PCA9551.i2c-0</child_id>
 	<child_id>PCA9551.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -106912,7 +107086,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -107522,10 +107696,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Rover-SI7021-0</id>
+	<id>Stormking-SI7021-0</id>
 	<type>chip-SI7021</type>
 	<is_root>false</is_root>
-	<instance_name>Rover-SI7021</instance_name>
+	<instance_name>Stormking-SI7021</instance_name>
 	<position>0</position>
 	<child_id>SI7021.i2c</child_id>
 	<child_id>SI7021.temp1</child_id>
@@ -113166,6 +113340,10 @@
 	<child_id>PCA9551.i2c-0</child_id>
 	<child_id>PCA9551.RESET</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CCIN</id>
 		<default></default>
 	</attribute>
@@ -113203,7 +113381,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -137655,6 +137833,10 @@
 	<child_id>PCA9555.gpio-15</child_id>
 	<child_id>PCA9555.INT</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -137699,7 +137881,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -139856,6 +140038,10 @@
 	<child_id>PCA9555.gpio-15</child_id>
 	<child_id>PCA9555.INT</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -139900,7 +140086,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -140705,6 +140891,10 @@
 	<child_id>PCA9555.gpio-15</child_id>
 	<child_id>PCA9555.INT</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -140749,7 +140939,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -141496,6 +141686,10 @@
 	<child_id>PCA9555.gpio-15</child_id>
 	<child_id>PCA9555.INT</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -141540,7 +141734,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -141851,21 +142045,32 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Bellavista_TCA9554_IOexpander-0</id>
-	<type>chip-PCA9554</type>
+	<id>Bellavista_PCA9552_VRMcardPresent-10</id>
+	<type>chip-PCA9552</type>
 	<is_root>false</is_root>
-	<instance_name>Bellavista_TCA9554_IOexpander</instance_name>
-	<position>0</position>
-	<child_id>PCA9554.i2c-0</child_id>
-	<child_id>PCA9554.gpio-0</child_id>
-	<child_id>PCA9554.gpio-1</child_id>
-	<child_id>PCA9554.gpio-2</child_id>
-	<child_id>PCA9554.gpio-3</child_id>
-	<child_id>PCA9554.gpio-4</child_id>
-	<child_id>PCA9554.gpio-5</child_id>
-	<child_id>PCA9554.gpio-6</child_id>
-	<child_id>PCA9554.gpio-7</child_id>
-	<child_id>PCA9554.INT</child_id>
+	<instance_name>Bellavista_PCA9552_VRMcardPresent</instance_name>
+	<position>10</position>
+	<child_id>PCA9552.i2c-0</child_id>
+	<child_id>PCA9552.gpio-0</child_id>
+	<child_id>PCA9552.gpio-1</child_id>
+	<child_id>PCA9552.gpio-2</child_id>
+	<child_id>PCA9552.gpio-3</child_id>
+	<child_id>PCA9552.gpio-4</child_id>
+	<child_id>PCA9552.gpio-5</child_id>
+	<child_id>PCA9552.gpio-6</child_id>
+	<child_id>PCA9552.gpio-7</child_id>
+	<child_id>PCA9552.gpio-8</child_id>
+	<child_id>PCA9552.gpio-9</child_id>
+	<child_id>PCA9552.gpio-10</child_id>
+	<child_id>PCA9552.gpio-11</child_id>
+	<child_id>PCA9552.gpio-12</child_id>
+	<child_id>PCA9552.gpio-13</child_id>
+	<child_id>PCA9552.gpio-14</child_id>
+	<child_id>PCA9552.gpio-15</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -141892,7 +142097,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>0</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -141904,613 +142109,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.i2c-0</id>
-	<type>unit-i2c-slave</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.i2c</instance_name>
-	<position>0</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-0</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>0</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-1</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-2</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>2</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-3</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>3</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-4</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>4</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-5</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>5</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-6</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>6</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.gpio-7</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.gpio</instance_name>
-	<position>7</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GPIO_EXP</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>PCA9554.INT</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>PCA9554.INT</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -143866,6 +143465,10 @@
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CCIN</id>
 		<default></default>
 	</attribute>
@@ -143903,7 +143506,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145041,6 +144644,10 @@
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CCIN</id>
 		<default></default>
 	</attribute>
@@ -145078,7 +144685,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145105,6 +144712,10 @@
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145143,7 +144754,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145170,6 +144781,10 @@
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145208,7 +144823,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145235,6 +144850,10 @@
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145273,7 +144892,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145300,6 +144919,10 @@
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145338,7 +144961,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145365,6 +144988,10 @@
 	<child_id>PIC16F882.gpio-14</child_id>
 	<child_id>PIC16F882.gpio-15</child_id>
 	<child_id>PIC16F882.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145403,7 +145030,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -145422,6 +145049,10 @@
 	<child_id>PCA9551.gpio-7</child_id>
 	<child_id>PCA9551.i2c-0</child_id>
 	<child_id>PCA9551.RESET</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -145460,7 +145091,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146219,6 +145850,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CCIN</id>
 		<default></default>
 	</attribute>
@@ -146256,7 +145891,613 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
+		<default>GPIO_EXPANDER</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.i2c-0</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.i2c</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-1</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-2</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>2</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-3</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>3</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-4</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>4</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-5</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>5</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-6</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>6</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.gpio-7</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.gpio</instance_name>
+	<position>7</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GPIO_EXP</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>PCA9554.INT</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>PCA9554.INT</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146275,6 +146516,10 @@
 	<child_id>PCA9554.gpio-6</child_id>
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -146313,7 +146558,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -146332,6 +146577,10 @@
 	<child_id>PCA9554.gpio-6</child_id>
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -146370,7 +146619,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>GPIO_EXPANDER</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -153292,10 +153541,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>led-Rover-0</id>
+	<id>led-Stormking-0</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>led-Rover</instance_name>
+	<instance_name>led-Stormking</instance_name>
 	<position>0</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -162236,6 +162485,189 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>Bellavista_ADS7138_Imon_C1-C4</id>
+	<type>chip-ADS7138</type>
+	<is_root>false</is_root>
+	<instance_name>Bellavista_ADS7138_Imon_C1-C4</instance_name>
+	<position>-1</position>
+	<child_id>ADS7138.i2c</child_id>
+	<child_id>ADS7138.ain0</child_id>
+	<child_id>ADS7138.ain1</child_id>
+	<child_id>ADS7138.ain2</child_id>
+	<child_id>ADS7138.ain3</child_id>
+	<child_id>ADS7138.ain4</child_id>
+	<child_id>ADS7138.ain5</child_id>
+	<child_id>ADS7138.ain6</child_id>
+	<child_id>ADS7138.ain7</child_id>
+	<child_id>ADS7138.reset</child_id>
+	<child_id>ADS7138.alert</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>ADS7138</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>POWER_SEQUENCER</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bellavista_ADS7138_Imon_C5-C8</id>
+	<type>chip-ADS7138</type>
+	<is_root>false</is_root>
+	<instance_name>Bellavista_ADS7138_Imon_C5-C8</instance_name>
+	<position>-1</position>
+	<child_id>ADS7138.i2c</child_id>
+	<child_id>ADS7138.ain0</child_id>
+	<child_id>ADS7138.ain1</child_id>
+	<child_id>ADS7138.ain2</child_id>
+	<child_id>ADS7138.ain3</child_id>
+	<child_id>ADS7138.ain4</child_id>
+	<child_id>ADS7138.ain5</child_id>
+	<child_id>ADS7138.ain6</child_id>
+	<child_id>ADS7138.ain7</child_id>
+	<child_id>ADS7138.reset</child_id>
+	<child_id>ADS7138.alert</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>ADS7138</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>POWER_SEQUENCER</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Bellavista_ADS7138_Imon_C9-C11</id>
+	<type>chip-ADS7138</type>
+	<is_root>false</is_root>
+	<instance_name>Bellavista_ADS7138_Imon_C9-C11</instance_name>
+	<position>-1</position>
+	<child_id>ADS7138.i2c</child_id>
+	<child_id>ADS7138.ain0</child_id>
+	<child_id>ADS7138.ain1</child_id>
+	<child_id>ADS7138.ain2</child_id>
+	<child_id>ADS7138.ain3</child_id>
+	<child_id>ADS7138.ain4</child_id>
+	<child_id>ADS7138.ain5</child_id>
+	<child_id>ADS7138.ain6</child_id>
+	<child_id>ADS7138.ain7</child_id>
+	<child_id>ADS7138.reset</child_id>
+	<child_id>ADS7138.alert</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>ADS7138</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>POWER_SEQUENCER</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>motherboard_fault_sensor</id>
 	<type>unit-ipmi-sensor</type>
 	<is_root>false</is_root>
@@ -162595,7 +163027,7 @@
 	<child_id>Everest-CCINS.BearMountain</child_id>
 	<child_id>Everest-CCINS.Fansipan</child_id>
 	<child_id>Everest-CCINS.Russell-OpPanel-LCD</child_id>
-	<child_id>Everest-CCINS.Rover-OpPanel</child_id>
+	<child_id>Everest-CCINS.Stormking-OpPanel</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default></default>
@@ -164014,10 +164446,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>Everest-CCINS.Rover-OpPanel</id>
+	<id>Everest-CCINS.Stormking-OpPanel</id>
 	<type>override-ccin-card</type>
 	<is_root>false</is_root>
-	<instance_name>Everest-CCINS.Rover-OpPanel</instance_name>
+	<instance_name>Everest-CCINS.Stormking-OpPanel</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>CARD_USE</id>
