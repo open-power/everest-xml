@@ -9978,7 +9978,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x42</value>
+	<value>0xA2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
