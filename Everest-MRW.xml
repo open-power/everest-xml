@@ -34996,7 +34996,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-1/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35017,7 +35017,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-0/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35038,7 +35038,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35059,7 +35059,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-3/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35080,7 +35080,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35101,7 +35101,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35122,7 +35122,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35143,7 +35143,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vdd-conn-6/norgay-vrm-vdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35164,7 +35164,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35185,7 +35185,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35206,7 +35206,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35227,7 +35227,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35248,7 +35248,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35269,7 +35269,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35290,7 +35290,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35311,7 +35311,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35332,7 +35332,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35353,7 +35353,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35374,7 +35374,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35395,7 +35395,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35416,7 +35416,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35437,7 +35437,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35458,7 +35458,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -35479,16 +35479,16 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/VRM-aux2-conn-0/reist-aux-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en28 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/vrd-i2c-2.enable1</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en28 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/vrd-i2c-2.enable1</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en28</source_target>
-		<dest_path>VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
+		<dest_path>VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
 		<dest_target>vrd-i2c-2.enable1</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -35500,16 +35500,16 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en29 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/vrd-i2c-2.enable1</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en29 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/vrd-i2c-2.enable1</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en29</source_target>
-		<dest_path>VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
+		<dest_path>VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
 		<dest_target>vrd-i2c-2.enable1</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -35521,16 +35521,16 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en30 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/vrd-i2c-2.enable1</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en30 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/vrd-i2c-2.enable1</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en30</source_target>
-		<dest_path>VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
+		<dest_path>VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
 		<dest_target>vrd-i2c-2.enable1</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -35542,16 +35542,16 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en31 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/vrd-i2c-2.enable1</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en31 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/vrd-i2c-2.enable1</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en31</source_target>
-		<dest_path>VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
+		<dest_path>VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
 		<dest_target>vrd-i2c-2.enable1</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -35563,7 +35563,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default></default>
+		<default>L:/sys/node-0/bellavista-0,H:/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0</default>
 		</bus_attribute>
 	</bus>
 	<bus>
