@@ -7504,6 +7504,167 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en10</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en11</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en12</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en13</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en14</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en15</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en19</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en2</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7551,6 +7712,144 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en32</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/UCD90320-0/UCD90320.en9</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7632,7 +7931,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.enable-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.enable-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7655,7 +7954,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -7892,7 +8191,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.enable-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.enable-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7995,7 +8294,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8017,7 +8316,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8207,7 +8506,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8229,7 +8528,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8419,7 +8718,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8441,7 +8740,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8631,7 +8930,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8646,7 +8945,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8836,14 +9135,37 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1</id>
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -8858,14 +9180,37 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2</id>
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9055,14 +9400,37 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1</id>
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9077,14 +9445,37 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2</id>
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9281,7 +9672,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9478,7 +9892,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9705,7 +10142,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -9925,7 +10385,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -10145,7 +10628,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -10365,7 +10871,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -10601,7 +11130,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -10798,7 +11350,30 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -10813,7 +11388,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.vout-0</id>
+	<id>/sys-0/node-0/bellavista-0/VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.vout-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -33826,13 +34401,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en2 => VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.enable-0</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en2 => VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.enable-0</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en2</source_target>
 		<dest_path>VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/</dest_path>
-		<dest_target>IR35219.enable-0</dest_target>
+		<dest_target>IR35219_special.enable-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>1</default>
@@ -33847,13 +34422,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>UCD90320-0/UCD90320.en2 => VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.enable-0</bus_id>
+		<bus_id>UCD90320-0/UCD90320.en2 => VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.enable-0</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>UCD90320-0/</source_path>
 		<source_target>UCD90320.en2</source_target>
 		<dest_path>VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/</dest_path>
-		<dest_target>IR35219.enable-0</dest_target>
+		<dest_target>IR35219_special.enable-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>1</default>
@@ -33865,6 +34440,258 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys/node-0/bellavista-0,H:/sys/node-0/bellavista-0/VRM-aux1-conn-0/reist-aux-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en8 => VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en8</source_target>
+		<dest_path>VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en9 => VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en9</source_target>
+		<dest_path>VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en10 => VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en10</source_target>
+		<dest_path>VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en11 => VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en11</source_target>
+		<dest_path>VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en12 => VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en12</source_target>
+		<dest_path>VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en13 => VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en13</source_target>
+		<dest_path>VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en14 => VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en14</source_target>
+		<dest_path>VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en15 => VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en15</source_target>
+		<dest_path>VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en4 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en4</source_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en7 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en7</source_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en5 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en5</source_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>UCD90320-0/UCD90320.en6 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.enable-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>UCD90320-0/</source_path>
+		<source_target>UCD90320.en6</source_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/</dest_path>
+		<dest_target>IR35219_special.enable-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47068,13 +47895,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
 		<dest_path>VRM-vdd-conn-6/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -47431,13 +48258,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
 		<dest_path>VRM-vdd-conn-7/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -47860,13 +48687,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
 		<dest_path>VRM-vdd-conn-2/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -48223,13 +49050,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
 		<dest_path>VRM-vdd-conn-3/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -48652,13 +49479,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
 		<source_target>chip-bmc-ast2600.I2C12</source_target>
 		<dest_path>VRM-vdd-conn-0/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -49015,13 +49842,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
 		<source_target>chip-bmc-ast2600.I2C12</source_target>
 		<dest_path>VRM-vdd-conn-1/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -49444,13 +50271,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
 		<dest_path>VRM-vdd-conn-4/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -49807,13 +50634,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
 		<dest_path>VRM-vdd-conn-5/norgay-vrm-vdd-0/IR35219_vdd-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50170,13 +50997,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50203,13 +51030,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-3/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50533,13 +51360,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50566,13 +51393,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-1/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50896,13 +51723,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
 		<source_target>chip-bmc-ast2600.I2C12</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -50929,13 +51756,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
 		<source_target>chip-bmc-ast2600.I2C12</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-0/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -51259,13 +52086,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vcs-vdn-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -51292,13 +52119,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
 		<dest_path>VRM-vcs-vdn-vio-conn-2/gunten-vrm-vcs-vdn-vio-0/IR35219-vio-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -51622,13 +52449,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
-		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/</dest_path>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -51655,13 +52482,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/chip-bmc-ast2600.I2C10 => VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_E15_gpiol2l3_i2c10/chip-bmc-ast2600.pingroup_i2c10/</source_path>
 		<source_target>chip-bmc-ast2600.I2C10</source_target>
-		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-1/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/</dest_path>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -51985,13 +52812,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
-		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpie-1/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vcs-vpcieA-1/</dest_path>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -52018,13 +52845,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/chip-bmc-ast2600.I2C11 => VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_M24_gpioa0_i2c11/chip-bmc-ast2600.pingroup_i2c11/</source_path>
 		<source_target>chip-bmc-ast2600.I2C11</source_target>
-		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcie-avdd-2/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_path>VRM-vcs-vpcie-avdd-conn-0/marmet-vrm-vcs-vpcie-avdd-0/IR35219-vpcieB-avdd-2/</dest_path>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -52348,13 +53175,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/chip-bmc-ast2600.I2C12 => VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L26_gpioa2_i2c12/chip-bmc-ast2600.pingroup_i2c12/</source_path>
 		<source_target>chip-bmc-ast2600.I2C12</source_target>
 		<dest_path>VRM-aux1-conn-0/reist-aux-0/IR35219-vcs-3v3-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -52744,13 +53571,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219.i2c-0</bus_id>
+		<bus_id>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/chip-bmc-ast2600.I2C14 => VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/IR35219_special.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>eBMC-card-conn-0/Tola-0/bmc-0/chip-bmc-ast2600.pin_L23_gpioa6_i2c14/chip-bmc-ast2600.pingroup_i2c14/</source_path>
 		<source_target>chip-bmc-ast2600.I2C14</source_target>
 		<dest_path>VRM-aux2-conn-0/reist-aux-0/IR35219-vcs-3v3-0/</dest_path>
-		<dest_target>IR35219.i2c-0</dest_target>
+		<dest_target>IR35219_special.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -140253,19 +141080,21 @@
 </targetInstance>
 <targetInstance>
 	<id>IR35219_vdd-0</id>
-	<type>chip-IR35219</type>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
 	<instance_name>IR35219_vdd</instance_name>
 	<position>0</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -140323,10 +141152,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.vout-0</id>
+	<id>IR35219_special.vout-0</id>
 	<type>unit-vout-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.vout</instance_name>
+	<instance_name>IR35219_special.vout</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140358,10 +141187,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.i2c-0</id>
+	<id>IR35219_special.i2c-0</id>
 	<type>unit-i2c-slave</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.i2c</instance_name>
+	<instance_name>IR35219_special.i2c</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140397,10 +141226,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.enable-0</id>
+	<id>IR35219_special.enable-0</id>
 	<type>unit-enable-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.enable</instance_name>
+	<instance_name>IR35219_special.enable</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140460,10 +141289,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.pgood-0</id>
+	<id>IR35219_special.pgood-0</id>
 	<type>unit-pgood-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.pgood</instance_name>
+	<instance_name>IR35219_special.pgood</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140523,10 +141352,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.gpio-0</id>
+	<id>IR35219_special.gpio-0</id>
 	<type>unit-gpio-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.gpio</instance_name>
+	<instance_name>IR35219_special.gpio</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140586,10 +141415,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.gpio-1</id>
+	<id>IR35219_special.gpio-1</id>
 	<type>unit-gpio-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.gpio</instance_name>
+	<instance_name>IR35219_special.gpio</instance_name>
 	<position>1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140649,10 +141478,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.gpio-2</id>
+	<id>IR35219_special.gpio-2</id>
 	<type>unit-gpio-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.gpio</instance_name>
+	<instance_name>IR35219_special.gpio</instance_name>
 	<position>2</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140712,10 +141541,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.gpio-3</id>
+	<id>IR35219_special.gpio-3</id>
 	<type>unit-gpio-generic</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.gpio</instance_name>
+	<instance_name>IR35219_special.gpio</instance_name>
 	<position>3</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -140775,10 +141604,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219.avs</id>
+	<id>IR35219_special.avs</id>
 	<type>unit-avs-slave</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219.avs</instance_name>
+	<instance_name>IR35219_special.avs</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -142870,19 +143699,21 @@
 </targetInstance>
 <targetInstance>
 	<id>IR35219-vcs-vdn-0</id>
-	<type>chip-IR35219</type>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
 	<instance_name>IR35219-vcs-vdn</instance_name>
 	<position>0</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -142941,19 +143772,21 @@
 </targetInstance>
 <targetInstance>
 	<id>IR35219-vio-0</id>
-	<type>chip-IR35219</type>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
 	<instance_name>IR35219-vio</instance_name>
 	<position>0</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -143765,14 +144598,14 @@
 	<position>0</position>
 	<child_id>generic-logic-assoc</child_id>
 	<child_id>led_assoc_child</child_id>
-	<child_id>IR35219-vcs-vpie-1</child_id>
-	<child_id>IR35219-vpcie-avdd-2</child_id>
+	<child_id>IR35219-vcs-vpcieA-1</child_id>
+	<child_id>IR35219-vpcieB-avdd-2</child_id>
 	<child_id>IR35220-vcs-1</child_id>
 	<child_id>IR35220-vcs-2</child_id>
-	<child_id>IR35220-vpcie-3</child_id>
-	<child_id>IR35220-vpcie-4</child_id>
-	<child_id>IR35220-vpcie-5</child_id>
-	<child_id>IR35220-vpcie-6</child_id>
+	<child_id>IR35220-vpcieA-3</child_id>
+	<child_id>IR35220-vpcieA-4</child_id>
+	<child_id>IR35220-vpcieB-5</child_id>
+	<child_id>IR35220-vpcieB-6</child_id>
 	<child_id>IR35220-vavdd-7</child_id>
 	<child_id>IR35220-vavdd-8</child_id>
 	<child_id>PCA9555-2</child_id>
@@ -143820,20 +144653,22 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219-vcs-vpie-1</id>
-	<type>chip-IR35219</type>
+	<id>IR35219-vcs-vpcieA-1</id>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219-vcs-vpie</instance_name>
+	<instance_name>IR35219-vcs-vpcieA</instance_name>
 	<position>1</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -143891,20 +144726,22 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35219-vpcie-avdd-2</id>
-	<type>chip-IR35219</type>
+	<id>IR35219-vpcieB-avdd-2</id>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
-	<instance_name>IR35219-vpcie-avdd</instance_name>
+	<instance_name>IR35219-vpcieB-avdd</instance_name>
 	<position>2</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -143962,10 +144799,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35220-vpcie-3</id>
+	<id>IR35220-vpcieA-3</id>
 	<type>chip-IR35220</type>
 	<is_root>false</is_root>
-	<instance_name>IR35220-vpcie</instance_name>
+	<instance_name>IR35220-vpcieA</instance_name>
 	<position>3</position>
 	<child_id>IR35220.i2c-0</child_id>
 	<child_id>IR35220.gpio-0</child_id>
@@ -144011,10 +144848,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35220-vpcie-4</id>
+	<id>IR35220-vpcieA-4</id>
 	<type>chip-IR35220</type>
 	<is_root>false</is_root>
-	<instance_name>IR35220-vpcie</instance_name>
+	<instance_name>IR35220-vpcieA</instance_name>
 	<position>4</position>
 	<child_id>IR35220.i2c-0</child_id>
 	<child_id>IR35220.gpio-0</child_id>
@@ -144060,10 +144897,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35220-vpcie-5</id>
+	<id>IR35220-vpcieB-5</id>
 	<type>chip-IR35220</type>
 	<is_root>false</is_root>
-	<instance_name>IR35220-vpcie</instance_name>
+	<instance_name>IR35220-vpcieB</instance_name>
 	<position>5</position>
 	<child_id>IR35220.i2c-0</child_id>
 	<child_id>IR35220.gpio-0</child_id>
@@ -144109,10 +144946,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>IR35220-vpcie-6</id>
+	<id>IR35220-vpcieB-6</id>
 	<type>chip-IR35220</type>
 	<is_root>false</is_root>
-	<instance_name>IR35220-vpcie</instance_name>
+	<instance_name>IR35220-vpcieB</instance_name>
 	<position>6</position>
 	<child_id>IR35220.i2c-0</child_id>
 	<child_id>IR35220.gpio-0</child_id>
@@ -144602,19 +145439,21 @@
 </targetInstance>
 <targetInstance>
 	<id>IR35219-vcs-3v3-0</id>
-	<type>chip-IR35219</type>
+	<type>chip-IR35219_special</type>
 	<is_root>false</is_root>
 	<instance_name>IR35219-vcs-3v3</instance_name>
 	<position>0</position>
-	<child_id>IR35219.vout-0</child_id>
-	<child_id>IR35219.i2c-0</child_id>
-	<child_id>IR35219.enable-0</child_id>
-	<child_id>IR35219.pgood-0</child_id>
-	<child_id>IR35219.gpio-0</child_id>
-	<child_id>IR35219.gpio-1</child_id>
-	<child_id>IR35219.gpio-2</child_id>
-	<child_id>IR35219.gpio-3</child_id>
-	<child_id>IR35219.avs</child_id>
+	<child_id>IR35219_special.vout-0</child_id>
+	<child_id>IR35219_special.vout-1</child_id>
+	<child_id>IR35219_special.i2c-0</child_id>
+	<child_id>IR35219_special.enable-0</child_id>
+	<child_id>IR35219_special.enable-1</child_id>
+	<child_id>IR35219_special.pgood-0</child_id>
+	<child_id>IR35219_special.pgood-1</child_id>
+	<child_id>IR35219_special.gpio-0</child_id>
+	<child_id>IR35219_special.gpio-1</child_id>
+	<child_id>IR35219_special.gpio-2</child_id>
+	<child_id>IR35219_special.gpio-3</child_id>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
