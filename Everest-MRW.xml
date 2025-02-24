@@ -78694,6 +78694,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POWERVS_P10_FW_VER</id>
+		<default>77,89,0, 78,89,0, 0,0,0,</default>
+	</attribute>
+	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
 		<default>EPS_TYPE_MR</default>
 	</attribute>
